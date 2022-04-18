@@ -1,0 +1,1028 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.3.30)  18 APR 2022 09:19
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**educators-perspective-tidyverse.tex
+(./educators-perspective-tidyverse.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24> (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip49
+For additional information on amsmath, use the `?' option.
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen139
+)) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count193
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count194
+\leftroot@=\count195
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count196
+\DOTSCASE@=\count197
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count198
+\c@MaxMatrixCols=\count199
+\dotsspace@=\muskip16
+\c@parentequation=\count266
+\dspbrk@lvl=\count267
+\tag@help=\toks17
+\row@=\count268
+\column@=\count269
+\maxfields@=\count270
+\andhelp@=\toks18
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/psfrag/psfrag.sty
+Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
+\pfg@pcount=\count271
+\pfg@scount=\count272
+\pfg@temp=\write3
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+\epsffilein=\read2
+\epsfframemargin=\dimen150
+\epsfframethickness=\dimen151
+\epsfrsize=\dimen152
+\epsftmp=\dimen153
+\epsftsize=\dimen154
+\epsfxsize=\dimen155
+\epsfysize=\dimen156
+\pspoints=\dimen157
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks22
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip52
+\bibsep=\skip53
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count273
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen158
+\Hy@linkcounter=\count274
+\Hy@pagecounter=\count275
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count276
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count277
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen159
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count278
+\Field@Width=\dimen160
+\Fld@charsize=\dimen161
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count279
+\c@Item=\count280
+\c@Hfootnote=\count281
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count282
+\c@bookmark@seq@number=\count283
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)
+\Hy@SectionHShift=\skip54
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2021/12/21 4.1b verbatim text (tvz,hv)
+\FV@CodeLineNo=\count284
+\FV@InFile=\read3
+\FV@TabBox=\box52
+\c@FancyVerbLine=\count285
+\FV@StepNumber=\count286
+\FV@OutFile=\write4
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip55
+\fb@frw=\dimen162
+\fb@frh=\dimen163
+\FrameRule=\dimen164
+\FrameSep=\dimen165
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+LaTeX Info: Redefining \color on input line 711.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 86.
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen166
+\captionmargin=\dimen167
+\caption@leftmargin=\dimen168
+\caption@rightmargin=\dimen169
+\caption@width=\dimen170
+\caption@indent=\dimen171
+\caption@parindent=\dimen172
+\caption@hangindent=\dimen173
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count287
+\c@continuedfloat=\count288
+Package caption Info: hyperref package is loaded.
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/floatrow/floatrow.sty
+Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
+\c@float@type=\count289
+\float@exts=\toks23
+\float@box=\box53
+\@floatcapt=\box54
+Package floatrow Info: Modified float package code loaded on input line 455.
+Package floatrow Info: Modified rotfloat package code loaded on input line 473.
+\FR@everyfloat=\toks24
+\flrow@foot=\insert252
+\FB@wd=\dimen174
+\FBo@wd=\dimen175
+\FBc@wd=\dimen176
+\FBo@ht=\skip56
+\FBc@ht=\skip57
+\FBf@ht=\skip58
+\FBo@max=\skip59
+\FBc@max=\skip60
+\FBf@max=\skip61
+\c@FBl@b=\count290
+\floatbox@depth=\count291
+\c@FRobj=\count292
+\c@FRsobj=\count293
+\Xhsize=\skip62
+\sXhsize=\skip63
+\Zhsize=\skip64
+\sZhsize=\skip65
+\flrow@rowbox=\box55
+\FR@Zunitlength=\dimen177
+\c@FBcnt=\count294
+\FPOScnt=\count295
+\LTleft=\skip66
+\LTright=\skip67
+\LTleft=\skip68
+\LTright=\skip69
+\flrow@types=\toks25
+)
+\c@chunk=\count296
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks26
+\SOUL@lasttoken=\toks27
+\SOUL@cmds=\toks28
+\SOUL@buffer=\toks29
+\SOUL@token=\toks30
+\SOUL@spaceskip=\skip70
+\SOUL@ttwidth=\dimen178
+\SOUL@uldp=\dimen179
+\SOUL@ulht=\dimen180
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen181
+\lightrulewidth=\dimen182
+\cmidrulewidth=\dimen183
+\belowrulesep=\dimen184
+\belowbottomsep=\dimen185
+\aboverulesep=\dimen186
+\abovetopsep=\dimen187
+\cmidrulesep=\dimen188
+\cmidrulekern=\dimen189
+\defaultaddspace=\dimen190
+\@cmidla=\count297
+\@cmidlb=\count298
+\@aboverulesep=\dimen191
+\@belowrulesep=\dimen192
+\@thisruleclass=\count299
+\@lastruleclass=\count300
+\@thisrulewidth=\dimen193
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip71
+\LTright=\skip72
+\LTpre=\skip73
+\LTpost=\skip74
+\LTchunksize=\count301
+\LTcapwidth=\dimen194
+\LT@head=\box56
+\LT@firsthead=\box57
+\LT@foot=\box58
+\LT@lastfoot=\box59
+\LT@gbox=\box60
+\LT@cols=\count302
+\LT@rows=\count303
+\c@LT@tables=\count304
+\c@LT@chunks=\count305
+\LT@p@ftn=\toks31
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen195
+\ar@mcellbox=\box61
+\extrarowheight=\dimen196
+\NC@list=\toks32
+\extratabsurround=\skip75
+\backup@length=\skip76
+\ar@cellbox=\box62
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip77
+\multirow@cntb=\count306
+\multirow@dima=\skip78
+\bigstrutjot=\dimen197
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen198
+\WF@size=\dimen199
+\c@WF@wrappedlines=\count307
+\WF@box=\box63
+\WF@everypar=\toks33
+Package: wrapfig 2003/01/31  v 3.6
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks34
+\minrowclearance=\skip79
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box64
+\sift@deathcycles=\count308
+\@vwid@loff=\dimen256
+\@vwid@roff=\dimen257
+)
+\c@taburow=\count309
+\tabu@nbcols=\count310
+\tabu@cnt=\count311
+\tabu@Xcol=\count312
+\tabu@alloc=\count313
+\tabu@nested=\count314
+\tabu@target=\dimen258
+\tabu@spreadtarget=\dimen259
+\tabu@naturalX=\dimen260
+\tabucolX=\dimen261
+\tabu@Xsum=\dimen262
+\extrarowdepth=\dimen263
+\abovetabulinesep=\dimen264
+\belowtabulinesep=\dimen265
+\tabustrutrule=\dimen266
+\tabu@thebody=\toks35
+\tabu@footnotes=\toks36
+\tabu@box=\box65
+\tabu@arstrutbox=\box66
+\tabu@hleads=\box67
+\tabu@vleads=\box68
+\tabu@cellskip=\skip80
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box69
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/threeparttablex/threeparttablex.sty
+Package: threeparttablex 2013/07/23 v0.3 by daleif
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\TPTL@width=\skip81
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box70
+\UL@hyphenbox=\box71
+\UL@skip=\skip82
+\UL@hook=\toks37
+\UL@height=\dimen267
+\UL@pe=\count315
+\UL@pixel=\dimen268
+\ULC@box=\box72
+Package: ulem 2019/11/18
+\ULdepth=\dimen269
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen270
+\c@nlinenum=\count316
+\TeXr@lab=\toks38
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count317
+\l__pdf_internal_box=\box73
+) (./educators-perspective-tidyverse.aux)
+\openout1 = `educators-perspective-tidyverse.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package hyperref Info: Link coloring ON on input line 116.
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/Users/mine/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count318
+)
+LaTeX Info: Redefining \ref on input line 116.
+LaTeX Info: Redefining \pageref on input line 116.
+LaTeX Info: Redefining \nameref on input line 116.
+(./educators-perspective-tidyverse.out) (./educators-perspective-tidyverse.out)
+\@outlinefile=\write5
+\openout5 = `educators-perspective-tidyverse.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: floatrow package is loaded.
+Package caption Info: longtable package is loaded.
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: Fixing longtable code of `floatrow' package.
+Package caption Info: threeparttable package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/floatrow/fr-longtable.sty
+Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
+\flrow@LT@lasthead=\box74
+\flrow@LT@prelastfoot=\box75
+\c@FBLTpage=\count319
+)
+Overfull \hbox (14.26753pt too wide) in paragraph at lines 145--145
+ [][] 
+ []
+
+[1
+Non-PDF special ignored!
+<special> header=psfrag.pro
+
+{/Users/mine/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5]
+<images/data-science.png, id=191, 654.445pt x 285.065pt>
+File: images/data-science.png Graphic file (type png)
+<use images/data-science.png>
+Package pdftex.def Info: images/data-science.png  used on input line 345.
+(pdftex.def)             Requested size: 369.8174pt x 161.08377pt.
+[6 <./images/data-science.png>]
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 409.
+(/Users/mine/Library/TinyTeX/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [7]
+Overfull \hbox (12.66997pt too wide) in paragraph at lines 435--443
+\OT1/cmr/m/n/12 which eval-u-ates an ex-pres-sion within a spec-i-fied en-vi-ron-ment (e.g., \OT1/cmtt/m/n/12 with(loans[]full[]schema,
+ []
+
+LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 460.
+(/Library/Frameworks/R.framework/Resources/share/texmf/tex/latex/omscmtt.fd
+File: omscmtt.fd 
+)
+LaTeX Font Info:    Font shape `OMS/cmtt/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 460.
+LaTeX Font Info:    Trying to load font information for OML+cmtt on input line 460.
+LaTeX Font Info:    No file OMLcmtt.fd. on input line 460.
+
+LaTeX Font Warning: Font shape `OML/cmtt/m/n' undefined
+(Font)              using `OML/cmm/m/it' instead
+(Font)              for symbol `textgreater' on input line 460.
+
+LaTeX Font Info:    Font shape `OMS/cmtt/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 479.
+[8] [9] [10] [11]
+
+Package xcolor Warning: Incompatible color definition on input line 645.
+
+
+Package xcolor Warning: Incompatible color definition on input line 655.
+
+
+Package xcolor Warning: Incompatible color definition on input line 655.
+
+
+Package xcolor Warning: Incompatible color definition on input line 655.
+
+[12]
+
+Package xcolor Warning: Incompatible color definition on input line 655.
+
+
+Package xcolor Warning: Incompatible color definition on input line 655.
+
+
+Package caption Warning: \captionsetup{type*=...} or \captionof
+(caption)                outside box or environment on input line 657.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 657.
+See the caption package documentation for explanation.
+
+Package hyperref Info: bookmark level for unknown chunk defaults to 0 on input line 657.
+
+Package xcolor Warning: Incompatible color definition on input line 673.
+
+
+Package xcolor Warning: Incompatible color definition on input line 683.
+
+
+Package xcolor Warning: Incompatible color definition on input line 683.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 694.
+See the caption package documentation for explanation.
+
+
+Package xcolor Warning: Incompatible color definition on input line 717.
+
+[13]
+
+Package xcolor Warning: Incompatible color definition on input line 726.
+
+
+Package xcolor Warning: Incompatible color definition on input line 726.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 735.
+See the caption package documentation for explanation.
+
+
+Package xcolor Warning: Incompatible color definition on input line 761.
+
+
+Package xcolor Warning: Incompatible color definition on input line 765.
+
+
+Package xcolor Warning: Incompatible color definition on input line 765.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 772.
+See the caption package documentation for explanation.
+
+[14]
+
+Package xcolor Warning: Incompatible color definition on input line 782.
+
+
+Package xcolor Warning: Incompatible color definition on input line 787.
+
+
+Package xcolor Warning: Incompatible color definition on input line 787.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 789.
+See the caption package documentation for explanation.
+
+[15]
+
+Package xcolor Warning: Incompatible color definition on input line 878.
+
+[16]
+
+Package xcolor Warning: Incompatible color definition on input line 885.
+
+
+Package xcolor Warning: Incompatible color definition on input line 885.
+
+<educators-perspective-tidyverse_files/figure-latex/ggplot_ex-1.pdf, id=351, 457.71pt x 221.82875pt>
+File: educators-perspective-tidyverse_files/figure-latex/ggplot_ex-1.pdf Graphic file (type pdf)
+<use educators-perspective-tidyverse_files/figure-latex/ggplot_ex-1.pdf>
+Package pdftex.def Info: educators-perspective-tidyverse_files/figure-latex/ggplot_ex-1.pdf  used on input line 887.
+(pdftex.def)             Requested size: 369.8174pt x 179.23686pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 888.
+See the caption package documentation for explanation.
+
+
+Package xcolor Warning: Incompatible color definition on input line 903.
+
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 909.
+
+Package xcolor Warning: Incompatible color definition on input line 917.
+
+
+Package xcolor Warning: Incompatible color definition on input line 917.
+
+<educators-perspective-tidyverse_files/figure-latex/base_plot_ex-1.pdf, id=353, 448.67625pt x 209.78375pt>
+File: educators-perspective-tidyverse_files/figure-latex/base_plot_ex-1.pdf Graphic file (type pdf)
+<use educators-perspective-tidyverse_files/figure-latex/base_plot_ex-1.pdf>
+Package pdftex.def Info: educators-perspective-tidyverse_files/figure-latex/base_plot_ex-1.pdf  used on input line 919.
+(pdftex.def)             Requested size: 369.8174pt x 172.91685pt.
+[17 <./educators-perspective-tidyverse_files/figure-latex/ggplot_ex-1.pdf>]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 920.
+See the caption package documentation for explanation.
+
+
+Package xcolor Warning: Incompatible color definition on input line 933.
+
+
+Package xcolor Warning: Incompatible color definition on input line 940.
+
+
+Package xcolor Warning: Incompatible color definition on input line 940.
+
+<educators-perspective-tidyverse_files/figure-latex/ggplot_ex2-1.pdf, id=367, 449.68pt x 221.82875pt>
+File: educators-perspective-tidyverse_files/figure-latex/ggplot_ex2-1.pdf Graphic file (type pdf)
+<use educators-perspective-tidyverse_files/figure-latex/ggplot_ex2-1.pdf>
+Package pdftex.def Info: educators-perspective-tidyverse_files/figure-latex/ggplot_ex2-1.pdf  used on input line 942.
+(pdftex.def)             Requested size: 416.04016pt x 205.24251pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 943.
+See the caption package documentation for explanation.
+
+[18 <./educators-perspective-tidyverse_files/figure-latex/base_plot_ex-1.pdf> <./educators-perspective-tidyverse_files/figure-latex/ggplot_ex2-1.pdf>]
+
+Package xcolor Warning: Incompatible color definition on input line 958.
+
+
+Package xcolor Warning: Incompatible color definition on input line 970.
+
+
+Package xcolor Warning: Incompatible color definition on input line 970.
+
+<educators-perspective-tidyverse_files/figure-latex/ggplot-scat-1.pdf, id=388, 449.68pt x 275.0275pt>
+File: educators-perspective-tidyverse_files/figure-latex/ggplot-scat-1.pdf Graphic file (type pdf)
+<use educators-perspective-tidyverse_files/figure-latex/ggplot-scat-1.pdf>
+Package pdftex.def Info: educators-perspective-tidyverse_files/figure-latex/ggplot-scat-1.pdf  used on input line 972.
+(pdftex.def)             Requested size: 369.8174pt x 226.19125pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 973.
+See the caption package documentation for explanation.
+
+
+Package xcolor Warning: Incompatible color definition on input line 987.
+
+[19 <./educators-perspective-tidyverse_files/figure-latex/ggplot-scat-1.pdf>]
+
+Package xcolor Warning: Incompatible color definition on input line 1023.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1023.
+
+<educators-perspective-tidyverse_files/figure-latex/base-scat-1.pdf, id=408, 440.64626pt x 216.81pt>
+File: educators-perspective-tidyverse_files/figure-latex/base-scat-1.pdf Graphic file (type pdf)
+<use educators-perspective-tidyverse_files/figure-latex/base-scat-1.pdf>
+Package pdftex.def Info: educators-perspective-tidyverse_files/figure-latex/base-scat-1.pdf  used on input line 1025.
+(pdftex.def)             Requested size: 369.8174pt x 181.96696pt.
+[20]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1026.
+See the caption package documentation for explanation.
+
+[21 <./educators-perspective-tidyverse_files/figure-latex/base-scat-1.pdf>] [22]
+
+Package xcolor Warning: Incompatible color definition on input line 1129.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1144.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1144.
+
+[23]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1157.
+See the caption package documentation for explanation.
+
+[24]
+
+Package xcolor Warning: Incompatible color definition on input line 1236.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1246.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1246.
+
+[25]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1257.
+See the caption package documentation for explanation.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1276.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1282.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1282.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1293.
+See the caption package documentation for explanation.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1308.
+
+[26]
+
+Package xcolor Warning: Incompatible color definition on input line 1318.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1318.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1327.
+See the caption package documentation for explanation.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1341.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1351.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1351.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1360.
+See the caption package documentation for explanation.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1373.
+
+[27]
+
+Package xcolor Warning: Incompatible color definition on input line 1382.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1382.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1400.
+See the caption package documentation for explanation.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1414.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1424.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1424.
+
+[28]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1439.
+See the caption package documentation for explanation.
+
+<images/fruitveggies.png, id=514, 743.77875pt x 333.245pt>
+File: images/fruitveggies.png Graphic file (type png)
+<use images/fruitveggies.png>
+Package pdftex.def Info: images/fruitveggies.png  used on input line 1478.
+(pdftex.def)             Requested size: 439.15508pt x 196.76538pt.
+[29] [30 <./images/fruitveggies.png>]
+
+Package xcolor Warning: Incompatible color definition on input line 1544.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1549.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1549.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1555.
+See the caption package documentation for explanation.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1569.
+
+[31]
+
+Package xcolor Warning: Incompatible color definition on input line 1573.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1573.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1579.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1583.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1583.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1589.
+See the caption package documentation for explanation.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1598.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1604.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1604.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1613.
+See the caption package documentation for explanation.
+
+[32]
+
+Package xcolor Warning: Incompatible color definition on input line 1667.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1674.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1674.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1676.
+See the caption package documentation for explanation.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1683.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1688.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1688.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1690.
+See the caption package documentation for explanation.
+
+[33] [34] [35]
+
+Package xcolor Warning: Incompatible color definition on input line 1823.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1831.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1831.
+
+[36]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1840.
+See the caption package documentation for explanation.
+
+[37] [38] [39] [40] [41] (./educators-perspective-tidyverse.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 25--29
+\OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://www.routledge.com/Modern-Data-Science-with-R/Baumer-Kaplan-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--36
+\OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-
+ []
+
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 112--115
+\OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://urban-institute.medium.com/building-an-r-community-at-the-urban-
+ []
+
+[43]
+Underfull \hbox (badness 10000) in paragraph at lines 135--138
+\OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://user2016.sched.com/event/7BZZ/fivethirtyeights-data-journalism-
+ []
+
+[44] [45] [46]
+Underfull \hbox (badness 10000) in paragraph at lines 298--301
+\OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://www.routledge.com/Data-Science-with-Julia/McNicholas-
+ []
+
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 331--335
+\OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://www.rstudio.com/resources/rstudioconf-2020/we-re-hitting-r-a-million-
+ []
+
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 435--439
+\OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://fossies.org/linux/misc/python-3.9.5-docs-pdf-a4.tar.bz2/docs-
+ []
+
+[49]
+Overfull \hbox (200.09215pt too wide) in paragraph at lines 464--469
+\OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://www.reddit.com/r/dataisbeautiful/comments/3mp9r7/im[]hadley[]wickham[]chief[]scientist[]at[]rstudio[]and/cvi19ly/ 
+ []
+
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 506--509
+\OT1/cmr/bx/n/12 URL: \OT1/cmr/m/it/12 https://www.rstudio.com/resources/rstudioglobal-2021/maintaining-the-house-
+ []
+
+[51]) [52] (./educators-perspective-tidyverse.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `educators-perspective-tidyverse.out' has not changed.
+(rerunfilecheck)             Checksum: 20A29C9D0C8E83E97F5B16C9DC32FCF6;3407.
+ ) 
+Here is how much of TeX's memory you used:
+ 14515 strings out of 480236
+ 239132 string characters out of 5895115
+ 536673 words of memory out of 5000000
+ 32022 multiletter control sequences out of 15000+600000
+ 479619 words of font info for 65 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 60i,12n,63p,438b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </Users/mine/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tctt1200.600pk> </Users/mine/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </Users/mine/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0700.600pk> </Users/mine/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on educators-perspective-tidyverse.pdf (52 pages, 1606967 bytes).
+PDF statistics:
+ 942 PDF objects out of 1000 (max. 8388607)
+ 815 compressed objects within 9 object streams
+ 214 named destinations out of 1000 (max. 500000)
+ 196 words of extra memory for PDF output out of 10000 (max. 10000000)
+

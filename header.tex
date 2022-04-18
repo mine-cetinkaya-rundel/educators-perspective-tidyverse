@@ -1,0 +1,26 @@
+% For blinding
+\newcommand{\github}[1]{\href{https://github.com/mine-cetinkaya-rundel/educators-perspective-tidyverse}{https://github.com/mine-cetinkaya-rundel/educators-perspective-tidyverse}}
+%\newcommand{\github}[1]{\texttt{[BLINDED LINK]}}
+
+
+% Remove green borders around links
+\usepackage{xcolor}
+\xdefinecolor{blue}{rgb}{0.28,0.65,0.9}
+\hypersetup{
+    colorlinks,
+    linkcolor={blue},
+    citecolor={blue},
+    urlcolor={blue}
+}
+
+
+% need this for the chunk captioning
+\usepackage[margin=0.6cm]{caption}
+\usepackage{floatrow}
+
+\DeclareNewFloatType{chunk}{placement=H, fileext=chk, name=}
+\captionsetup{options=chunk}
+\renewcommand{\thechunk}{Example~\thesection.\arabic{chunk}}
+\makeatletter
+\@addtoreset{chunk}{section}
+\makeatother
