@@ -93,10 +93,10 @@ library(openintro)
 # Introduction
 
 Computing has a fundamental and growing role in the statistics and data science curriculum [@horthard_2021; @nolan_templelang_2010].
-The revised Guidelines for Assessment and Instruction in Statistics Education (GAISE) College report notes the importance of technology and states: "ideally, students should be given numerous opportunities to analyze data with the best available technology (preferably, statistical software)" [@CarEve2016].
-In both statistics and data science courses, we believe it is important to teach authentic tools, i.e., tools that are used by practitioners of these disciplines (academics and industry professionals).
+The revised Guidelines for Assessment and Instruction in Statistics Education (GAISE) College report notes the importance of technology and states: "ideally, students should be given numerous opportunities to analyze data with the best available technology (preferably, statistical software)" (@CarEve2016, page 11).
+In both statistics and data science courses, we believe it is important to teach tools that are used by practitioners of these disciplines (i.e., authentic tools).
 
-When it comes to an authentic tool, @mcna_2019 argues that a modern statistical computing tool "should be accessible, provide easy entry, privilege data as a first-order object, support exploratory and confirmatory analysis, allow for flexible plot creation, support randomization, be interactive, include inherent documentation, support narrative, publishing, and reproducibility, and be flexible to extensions," and that such tools ideally allow new users and professionals to "reach across the gap" between tools for teaching and tools for doing to foster continued learning [@mcnamara2015; @mcna_2019].
+When it comes to an authentic tool, @mcna_2019 argues that a modern statistical computing tool "should be accessible, provide easy entry, privilege data as a first-order object, support exploratory and confirmatory analysis, allow for flexible plot creation, support randomization, be interactive, include inherent documentation, support narrative, publishing, and reproducibility, and be flexible to extensions" (page 1). Such tools ideally allow new users and professionals to "reach across the gap" between tools for teaching and tools for doing to foster continued learning [@mcnamara2015].
 R exhibits all of these attributes, particularly with careful curation and thoughts toward pedagogy.
 It is also flexible, powerful, and open-source.
 As a result, many instructors at the undergraduate level, particularly those with a background in statistics, have chosen R [@Rlang] for their teaching.
@@ -129,7 +129,7 @@ Recent developments, perhaps most notably the tidyverse, have helped to round of
 It is important for educators to periodically reevaluate their teaching in light of what is most widely used, what is more user-friendly, what has better documentation, what has better learning resources, what has better community support, etc.
 
 Based on all of these considerations (and more that we will articulate below), and despite the need to incorporate additional learning outcomes into our classes, we recommend teaching with the tidyverse as a way to further integrate computation into our courses and programs.
-While we all recommend the use of the RStudio integrated development environment (IDE) [@rstudio], our arguments for the tidyverse stand even outside the RStudio IDE. 
+While we recommend the use of the RStudio integrated development environment (IDE; @rstudio), our arguments for the tidyverse also stand outside the RStudio IDE. 
 Others have focused on how using R to teach statistics can decrease the cognitive load (amount of information needed at once) of the class [@Pruim2017; @guzman2019successful; @tuckerstatistics2021], which we affirm from our personal teaching experiences.
 Here, we focus on the many different pedagogical advantages of using the tidyverse and the specific benefits they bring to the statistics and data science classroom.
 Table \ref{tab:summary} summarizes our arguments. 
@@ -166,7 +166,7 @@ knitr::include_graphics("images/data-science.png")
 -   composability: The tidyverse functions allow users to solve complex problems by breaking them down into small pieces, many of which can be combined using the "pipe" operator (or a "+" operator for **ggplot2**). They support iterative exploratory analysis to find the best solution.
 -   inclusivity: In addition to the packages and functions themselves, the tidyverse also refers to the community of people who use the packages. The packages, their documentation, and the community support all emphasize inclusivity.
 
-Central to the tidyverse is the notion of tidy data, which @wickham2014tidy defines as "easy to manipulate, model and visualize, and have a specific structure: each variable is a column, each observation is a row, and each type of observational unit is a table."
+Central to the tidyverse is the notion of tidy data, which @wickham2014tidy defines as "easy to manipulate, model and visualize, and have a specific structure: each variable is a column, each observation is a row, and each type of observational unit is a table" (page 1).
 
 Many of the core packages in the tidyverse were originally developed independently to address specific phases of the data science cycle, and subsequently came together under the tidyverse umbrella in 2016 [@smithdavid2016].
 All of the core tidyverse packages are under active development, as the authors iterate to improve functionality.
@@ -195,15 +195,15 @@ A second approach to working with variables in base R is using the `with()` func
 Using `with()` avoids the name collision problem introduced by `attach()` but it is more verbose and requires understanding how a new function works just to access a variable in a data frame.
 
 In the tidyverse, the first argument of each function, whether for data wrangling, visualization, or any of the more complex tasks that can be introduced later, is almost always a data frame.
-Tidyverse functions allow access to variables in the data frame without having to re-specify the name of the data frame, e.g., `arrange(loans, loan_amount)` will arrange the rows of the `loans` data frame based on the value of `loan_amount`.
+Tidyverse functions allow access to variables in the data frame without having to re-specify the name of the data frame (e.g., `arrange(loans, loan_amount)` will arrange the rows of the `loans` data frame based on the value of `loan_amount`).
 By forcing users to work with tidy data, the tidyverse emphasizes the connection between data frames and variables, helping to underscore fundamental data science and statistics concepts while also simplifying the syntax for routine data analysis tasks.
 
 The tidyverse strongly encourages the use of the pipe operator to construct readable, vertical data pipelines, whether it's for data wrangling or visualization.
-Beginning with R 4.1, the previous `arrange()` code would be written as `loans |> arrange(loan_amount)` using the pipe operator (`|>`) to pipe the data frame (or any result from the preceding step of the pipeline) into the subsequent function as its first argument (see Section \ref{sec:wrangle} for more details on using the pipe operator in the tidyverse).
+Beginning with R 4.1.0, the previous `arrange()` code would be written as `loans |> arrange(loan_amount)` using the pipe operator (`|>`) to pipe the data frame (or any result from the preceding step of the pipeline) into the subsequent function as its first argument (see Section \ref{sec:wrangle} for more details on using the pipe operator in the tidyverse).[^pipe]
 Pipe operators exist as a common feature across a number of other programming languages (e.g., the UNIX shell, JavaScript, etc.) and were introduced into the R ecosystem by the **magrittr** package [@R-magrittr] package.
-The widespread community adoption of the tidyverse (and the corresponding improved error recovery) led to the introduction of a pipe operator into the base language[^tierney] in early 2021 with R version 4.1.0.[^1]
+The widespread community adoption of the tidyverse (and the corresponding improved error recovery) led to the introduction of a pipe operator into the base language[^tierney] in early 2021 with R version 4.1.0.
 
-[^1]: In versions of R earlier than 4.1.0, the magrittr pipe (`%>%`) must be used in place of the native pipe (`|>`). When using the base R pipe, note that *all* students must be running R version 4.1 or newer).
+[^pipe]: In versions of R earlier than 4.1.0, the magrittr pipe (`%>%`) must be used in place of the native pipe (`|>`). When using the base R pipe, note that *all* students must be running R version 4.1 or newer).
 
 [^tierney]: See, for example, [Luke Tierney's talk at the 2020 R Core useR! event](https://www.youtube.com/watch?v=X_eDHNVceCU&t=4085s), in which he states that the R Core Team is considering adding a pipe operator to base R because because "magrittr is very popular" and "a number of other languages are adding pipes."
 
@@ -219,13 +219,13 @@ Conversely, when `data.frame`s are printed all rows and columns are shown regard
 
 ## Consistent grammar and vocabulary
 
-@hermans2017writing develop the metaphor of programming as writing, and we extend their reasoning to assert that R is a programming language with many syntaxes (or flavors/"dialects").
+@hermans2017writing used the metaphor of programming as writing, and we extend their reasoning to assert that R is a programming language with many syntaxes (or flavors/"dialects").
 Different R packages can use different syntaxes for the same idiom.
 Even packages included in the distribution of base R do not all have a consistent grammar and vocabulary.
 As stated in its design philosophy, the tidyverse strives for consistency across packages [@tidyverse-style].
 This makes the tidyverse syntactically different from base R for doing certain tasks, which might lead to learners of the tidyverse being less familiar with base R code, and vice versa.
 
-Tidyverse users tend to use particular vocabulary, e.g., pipes, tibbles, and verbs, compared to base R users who are more likely to speak in terms of matrices, dollar signs (`$`), and square brackets (`[]`).
+Tidyverse users tend to use particular vocabulary (e.g., pipes, tibbles, verbs) compared to base R users who are more likely to speak in terms of matrices, dollar signs (`$`), and square brackets (`[]`).
 A third commonly used approach is the formula syntax [@Pruim2017], which is characterized by the use of tildes (`~`).
 The notion of a "grammar" in R code is well-established for both graphics [@wilkinson2012grammar; @R-ggplot2] and data wrangling [@R-dplyr].
 In Section \ref{sec:reading}, we develop notions of pronunciation.
@@ -368,7 +368,7 @@ Students can easily *use* custom plotting methods (e.g., `density(x)`), function
 That is, while all the plotting tools are usable, it is hard for students to develop a mental model of their commonalities without first having a deeper understanding of R as a programming language, specifically around generic functions, basic data structures, and classes.
 
 As mentioned previously, most of base R's plotting functionality is built around S3 specializations of `plot()` and similar high-level plotting functions.
-In some cases, the plot types are relatively easy to identify by name, e.g., `hist()`, `barplot()`, `boxplot()`, while others are less obvious, e.g., `abline()`, `image()`, or `par()`.
+In some cases, the plot types are relatively easy to identify by name (e.g., `hist()`, `barplot()`, `boxplot()`) while others are less obvious (e.g., `abline()`, `image()`, or `par()`).
 The base R plotting functions are part of the **graphics** package, which is loaded automatically by all R sessions.
 
 To visualize using tidyverse principles, we use one of the core tidyverse packages: **ggplot2**.
@@ -432,8 +432,11 @@ loans |>
   scale_x_log10(labels = scales::label_dollar()) +
   scale_y_continuous(labels = scales::label_percent(scale = 1)) +
   scale_color_manual(values = c("#E69F00", "#56B4E9")) +
-  labs(x = "Annual Income", y = "Interest Rate", 
-       color = "Previous\nBankruptcy")
+  labs(
+    x = "Annual Income", 
+    y = "Interest Rate", 
+    color = "Previous\nBankruptcy"
+    )
 ```
 
 We note that \ref{ggplot-scat} requires seven function calls, but each call builds on a common framework and interface.
@@ -486,7 +489,7 @@ options(prev)
 ```
 
 We note several differences between the two scatterplot implementations.
-The ggplot2 approach uses function arguments vs. base graphics `par()` parameters.
+The ggplot2 approach uses function arguments vs. base graphics parameters.
 Some of the parameters (e.g., `xaxp`, `log`) are idiosyncratic and difficult to find in the documentation.
 Specifying colors and alpha transparency levels are quite different in the two implementations.
 In base graphics, legends require a separate function with additional manual bookkeeping, which increases the potential for human error.
@@ -762,7 +765,7 @@ tapply(loans$loan_amount, loans$bankruptcy, mean)
 Try reading these code snippets out loud to yourself.
 Which elements do you vocalize?
 Which do you skip?
-When we read the tidyverse code, we pronounce the `|>` operator as "and then." "Group by bankruptcy and then summarize." When we read the base code, it is more repetitive because we need to repeatedly say things like "loans dollar sign bankruptcy." Typically, we do not vocalize every character on the screen.
+When we read the tidyverse code, we pronounce the `|>` operator as "and then." "Start with the loans data and then group by bankruptcy and then summarize." When we read the base code, it is more repetitive because we need to repeatedly say things like "loans dollar sign bankruptcy." Typically, we do not vocalize every character on the screen.
 Most commonly, we do not read out line breaks, underscores, or many parentheses (particularly closing parentheses).
 However, a more verbose vocalization (perhaps used when dictating to a newer student) would likely include the additional punctuation.
 If you would like to hear one of us read the code snippets aloud, please see @mcnamara2021.

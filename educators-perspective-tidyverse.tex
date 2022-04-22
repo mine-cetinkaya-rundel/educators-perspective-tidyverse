@@ -200,10 +200,9 @@ revised Guidelines for Assessment and Instruction in Statistics
 Education (GAISE) College report notes the importance of technology and
 states: ``ideally, students should be given numerous opportunities to
 analyze data with the best available technology (preferably, statistical
-software)'' \citep{CarEve2016}. In both statistics and data science
-courses, we believe it is important to teach authentic tools, i.e.,
-tools that are used by practitioners of these disciplines (academics and
-industry professionals).
+software)'' (\citet{CarEve2016}, page 11). In both statistics and data
+science courses, we believe it is important to teach tools that are used
+by practitioners of these disciplines (i.e., authentic tools).
 
 When it comes to an authentic tool, \citet{mcna_2019} argues that a
 modern statistical computing tool ``should be accessible, provide easy
@@ -211,14 +210,14 @@ entry, privilege data as a first-order object, support exploratory and
 confirmatory analysis, allow for flexible plot creation, support
 randomization, be interactive, include inherent documentation, support
 narrative, publishing, and reproducibility, and be flexible to
-extensions,'' and that such tools ideally allow new users and
+extensions'' (page 1). Such tools ideally allow new users and
 professionals to ``reach across the gap'' between tools for teaching and
-tools for doing to foster continued learning
-\citep{mcnamara2015, mcna_2019}. R exhibits all of these attributes,
-particularly with careful curation and thoughts toward pedagogy. It is
-also flexible, powerful, and open-source. As a result, many instructors
-at the undergraduate level, particularly those with a background in
-statistics, have chosen R \citep{Rlang} for their teaching.
+tools for doing to foster continued learning \citep{mcnamara2015}. R
+exhibits all of these attributes, particularly with careful curation and
+thoughts toward pedagogy. It is also flexible, powerful, and
+open-source. As a result, many instructors at the undergraduate level,
+particularly those with a background in statistics, have chosen R
+\citep{Rlang} for their teaching.
 
 There are many pedagogical decisions that emerge when an instructor
 chooses to teach with a particular computational platform or tool. We
@@ -291,8 +290,8 @@ Based on all of these considerations (and more that we will articulate
 below), and despite the need to incorporate additional learning outcomes
 into our classes, we recommend teaching with the tidyverse as a way to
 further integrate computation into our courses and programs. While we
-all recommend the use of the RStudio integrated development environment
-(IDE) \citep{rstudio}, our arguments for the tidyverse stand even
+recommend the use of the RStudio integrated development environment
+(IDE; \citet{rstudio}), our arguments for the tidyverse also stand
 outside the RStudio IDE. Others have focused on how using R to teach
 statistics can decrease the cognitive load (amount of information needed
 at once) of the class
@@ -380,7 +379,7 @@ Central to the tidyverse is the notion of tidy data, which
 \citet{wickham2014tidy} defines as ``easy to manipulate, model and
 visualize, and have a specific structure: each variable is a column,
 each observation is a row, and each type of observational unit is a
-table.''
+table'' (page 1).
 
 Many of the core packages in the tidyverse were originally developed
 independently to address specific phases of the data science cycle, and
@@ -445,38 +444,39 @@ In the tidyverse, the first argument of each function, whether for data
 wrangling, visualization, or any of the more complex tasks that can be
 introduced later, is almost always a data frame. Tidyverse functions
 allow access to variables in the data frame without having to re-specify
-the name of the data frame, e.g., \texttt{arrange(loans,\ loan\_amount)}
+the name of the data frame (e.g., \texttt{arrange(loans,\ loan\_amount)}
 will arrange the rows of the \texttt{loans} data frame based on the
-value of \texttt{loan\_amount}. By forcing users to work with tidy data,
-the tidyverse emphasizes the connection between data frames and
+value of \texttt{loan\_amount}). By forcing users to work with tidy
+data, the tidyverse emphasizes the connection between data frames and
 variables, helping to underscore fundamental data science and statistics
 concepts while also simplifying the syntax for routine data analysis
 tasks.
 
 The tidyverse strongly encourages the use of the pipe operator to
 construct readable, vertical data pipelines, whether it's for data
-wrangling or visualization. Beginning with R 4.1, the previous
+wrangling or visualization. Beginning with R 4.1.0, the previous
 \texttt{arrange()} code would be written as
 \texttt{loans\ \textbar{}\textgreater{}\ arrange(loan\_amount)} using
 the pipe operator (\texttt{\textbar{}\textgreater{}}) to pipe the data
 frame (or any result from the preceding step of the pipeline) into the
 subsequent function as its first argument (see Section \ref{sec:wrangle}
-for more details on using the pipe operator in the tidyverse). Pipe
-operators exist as a common feature across a number of other programming
-languages (e.g., the UNIX shell, JavaScript, etc.) and were introduced
-into the R ecosystem by the \textbf{magrittr} package \citep{R-magrittr}
-package. The widespread community adoption of the tidyverse (and the
-corresponding improved error recovery) led to the introduction of a pipe
-operator into the base language\footnote{See, for example,
+for more details on using the pipe operator in the
+tidyverse).\footnote{In versions of R earlier than 4.1.0, the magrittr
+  pipe (\texttt{\%\textgreater{}\%}) must be used in place of the native
+  pipe (\texttt{\textbar{}\textgreater{}}). When using the base R pipe,
+  note that \emph{all} students must be running R version 4.1 or newer).}
+Pipe operators exist as a common feature across a number of other
+programming languages (e.g., the UNIX shell, JavaScript, etc.) and were
+introduced into the R ecosystem by the \textbf{magrittr} package
+\citep{R-magrittr} package. The widespread community adoption of the
+tidyverse (and the corresponding improved error recovery) led to the
+introduction of a pipe operator into the base language\footnote{See, for
+  example,
   \href{https://www.youtube.com/watch?v=X_eDHNVceCU\&t=4085s}{Luke
   Tierney's talk at the 2020 R Core useR! event}, in which he states
   that the R Core Team is considering adding a pipe operator to base R
   because because ``magrittr is very popular'' and ``a number of other
-  languages are adding pipes.''} in early 2021 with R version
-4.1.0.\footnote{In versions of R earlier than 4.1.0, the magrittr pipe
-  (\texttt{\%\textgreater{}\%}) must be used in place of the native pipe
-  (\texttt{\textbar{}\textgreater{}}). When using the base R pipe, note
-  that \emph{all} students must be running R version 4.1 or newer).}
+  languages are adding pipes.''} in early 2021 with R version 4.1.0.
 
 Like the \texttt{lm()} function, or systems such as SAS (which feature a
 common interface with a \texttt{DATA\ =} statement), tidyverse functions
@@ -508,21 +508,20 @@ regardless of how large (width or length-wise) the data are.
 \subsection{Consistent grammar and
 vocabulary}\label{consistent-grammar-and-vocabulary}}
 
-\citet{hermans2017writing} develop the metaphor of programming as
-writing, and we extend their reasoning to assert that R is a programming
-language with many syntaxes (or flavors/``dialects''). Different R
-packages can use different syntaxes for the same idiom. Even packages
-included in the distribution of base R do not all have a consistent
-grammar and vocabulary. As stated in its design philosophy, the
-tidyverse strives for consistency across packages
-\citep{tidyverse-style}. This makes the tidyverse syntactically
-different from base R for doing certain tasks, which might lead to
-learners of the tidyverse being less familiar with base R code, and vice
-versa.
+\citet{hermans2017writing} used the metaphor of programming as writing,
+and we extend their reasoning to assert that R is a programming language
+with many syntaxes (or flavors/``dialects''). Different R packages can
+use different syntaxes for the same idiom. Even packages included in the
+distribution of base R do not all have a consistent grammar and
+vocabulary. As stated in its design philosophy, the tidyverse strives
+for consistency across packages \citep{tidyverse-style}. This makes the
+tidyverse syntactically different from base R for doing certain tasks,
+which might lead to learners of the tidyverse being less familiar with
+base R code, and vice versa.
 
-Tidyverse users tend to use particular vocabulary, e.g., pipes, tibbles,
-and verbs, compared to base R users who are more likely to speak in
-terms of matrices, dollar signs (\texttt{\$}), and square brackets
+Tidyverse users tend to use particular vocabulary (e.g., pipes, tibbles,
+verbs) compared to base R users who are more likely to speak in terms of
+matrices, dollar signs (\texttt{\$}), and square brackets
 (\texttt{{[}{]}}). A third commonly used approach is the formula syntax
 \citep{Pruim2017}, which is characterized by the use of tildes
 (\texttt{\textasciitilde{}}). The notion of a ``grammar'' in R code is
@@ -833,10 +832,10 @@ basic data structures, and classes.
 As mentioned previously, most of base R's plotting functionality is
 built around S3 specializations of \texttt{plot()} and similar
 high-level plotting functions. In some cases, the plot types are
-relatively easy to identify by name, e.g., \texttt{hist()},
-\texttt{barplot()}, \texttt{boxplot()}, while others are less obvious,
-e.g., \texttt{abline()}, \texttt{image()}, or \texttt{par()}. The base R
-plotting functions are part of the \textbf{graphics} package, which is
+relatively easy to identify by name (e.g., \texttt{hist()},
+\texttt{barplot()}, \texttt{boxplot()}) while others are less obvious
+(e.g., \texttt{abline()}, \texttt{image()}, or \texttt{par()}). The base
+R plotting functions are part of the \textbf{graphics} package, which is
 loaded automatically by all R sessions.
 
 To visualize using tidyverse principles, we use one of the core
@@ -964,8 +963,11 @@ the loan recipient.
   \FunctionTok{scale\_x\_log10}\NormalTok{(}\AttributeTok{labels =}\NormalTok{ scales}\SpecialCharTok{::}\FunctionTok{label\_dollar}\NormalTok{()) }\SpecialCharTok{+}
   \FunctionTok{scale\_y\_continuous}\NormalTok{(}\AttributeTok{labels =}\NormalTok{ scales}\SpecialCharTok{::}\FunctionTok{label\_percent}\NormalTok{(}\AttributeTok{scale =} \DecValTok{1}\NormalTok{)) }\SpecialCharTok{+}
   \FunctionTok{scale\_color\_manual}\NormalTok{(}\AttributeTok{values =} \FunctionTok{c}\NormalTok{(}\StringTok{"\#E69F00"}\NormalTok{, }\StringTok{"\#56B4E9"}\NormalTok{)) }\SpecialCharTok{+}
-  \FunctionTok{labs}\NormalTok{(}\AttributeTok{x =} \StringTok{"Annual Income"}\NormalTok{, }\AttributeTok{y =} \StringTok{"Interest Rate"}\NormalTok{, }
-       \AttributeTok{color =} \StringTok{"Previous}\SpecialCharTok{\textbackslash{}n}\StringTok{Bankruptcy"}\NormalTok{)}
+  \FunctionTok{labs}\NormalTok{(}
+    \AttributeTok{x =} \StringTok{"Annual Income"}\NormalTok{, }
+    \AttributeTok{y =} \StringTok{"Interest Rate"}\NormalTok{, }
+    \AttributeTok{color =} \StringTok{"Previous}\SpecialCharTok{\textbackslash{}n}\StringTok{Bankruptcy"}
+\NormalTok{    )}
 \end{Highlighting}
 \end{Shaded}
 
@@ -1030,14 +1032,14 @@ but the syntax requires careful study of the documentation for
 
 We note several differences between the two scatterplot implementations.
 The ggplot2 approach uses function arguments vs.~base graphics
-\texttt{par()} parameters. Some of the parameters (e.g., \texttt{xaxp},
-\texttt{log}) are idiosyncratic and difficult to find in the
-documentation. Specifying colors and alpha transparency levels are quite
-different in the two implementations. In base graphics, legends require
-a separate function with additional manual bookkeeping, which increases
-the potential for human error. Explicit iteration is required to create
-multivariate plots and the user is required to specify the display
-structure. Care is needed in constructing axis values.
+parameters. Some of the parameters (e.g., \texttt{xaxp}, \texttt{log})
+are idiosyncratic and difficult to find in the documentation. Specifying
+colors and alpha transparency levels are quite different in the two
+implementations. In base graphics, legends require a separate function
+with additional manual bookkeeping, which increases the potential for
+human error. Explicit iteration is required to create multivariate plots
+and the user is required to specify the display structure. Care is
+needed in constructing axis values.
 
 We note that the \texttt{+} operator in the ggplot2 syntax differs from
 the pipe (\texttt{\textbar{}\textgreater{}}) operator for historical
@@ -1695,18 +1697,19 @@ manuscript. Consider the sample code in \ref{tidy-vocal} and
 Try reading these code snippets out loud to yourself. Which elements do
 you vocalize? Which do you skip? When we read the tidyverse code, we
 pronounce the \texttt{\textbar{}\textgreater{}} operator as ``and
-then.'' ``Group by bankruptcy and then summarize.'' When we read the
-base code, it is more repetitive because we need to repeatedly say
-things like ``loans dollar sign bankruptcy.'' Typically, we do not
-vocalize every character on the screen. Most commonly, we do not read
-out line breaks, underscores, or many parentheses (particularly closing
-parentheses). However, a more verbose vocalization (perhaps used when
-dictating to a newer student) would likely include the additional
-punctuation. If you would like to hear one of us read the code snippets
-aloud, please see \citet{mcnamara2021}. Hopefully, the exercise of
-reading code aloud helps illustrate that the tidyverse is more designed
-for speakability. The tidyverse verbs sound more like English sentences
-(e.g., compare \texttt{tapply()} to \texttt{group\_by()}).
+then.'' ``Start with the loans data and then group by bankruptcy and
+then summarize.'' When we read the base code, it is more repetitive
+because we need to repeatedly say things like ``loans dollar sign
+bankruptcy.'' Typically, we do not vocalize every character on the
+screen. Most commonly, we do not read out line breaks, underscores, or
+many parentheses (particularly closing parentheses). However, a more
+verbose vocalization (perhaps used when dictating to a newer student)
+would likely include the additional punctuation. If you would like to
+hear one of us read the code snippets aloud, please see
+\citet{mcnamara2021}. Hopefully, the exercise of reading code aloud
+helps illustrate that the tidyverse is more designed for speakability.
+The tidyverse verbs sound more like English sentences (e.g., compare
+\texttt{tapply()} to \texttt{group\_by()}).
 
 We should note that readable does not necessarily mean
 discoverable---one would not necessarily think of the word ``summarize''
