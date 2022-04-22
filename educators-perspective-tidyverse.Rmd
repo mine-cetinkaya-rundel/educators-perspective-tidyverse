@@ -36,7 +36,7 @@ abstract: >
   A large part of this usage is because the tidyverse tools have been intentionally designed to ease the learning process and make it easier for users to learn new functions as they engage with additional pieces of the larger ecosystem.
   Moreover, the functionality offered by the packages within the tidyverse spans the entire data science cycle, which includes data import, visualisation, wrangling, modeling, and communication.
   We believe the tidyverse provides an effective and efficient pathway for undergraduate students at all levels and majors to gain computational skills and thinking needed throughout the data science cycle.
-  In this paper, we introduce the tidyverse from an educator's perspective. We provide a brief introduction to the tidyverse, demonstrate how foundational statistics and data science tasks are accomplised with the tidyverse, and discuss the strengths of the tidyverse, particularly in the context of teaching and learning.
+  In this paper, we introduce the tidyverse from an educator's perspective. We provide a brief introduction to the tidyverse, demonstrate how foundational statistics and data science tasks are accomplished with the tidyverse, and discuss the strengths of the tidyverse, particularly in the context of teaching and learning.
 bibliography: [references.bib]
 output: 
   rticles::asa_article:
@@ -151,7 +151,7 @@ tribble(
 
 # Principles of the tidyverse {#sec:principles}
 
-The **tidyverse** package is a meta R package that loads eight core packages when invoked, and also bundles numerous other packages upon installation (as suggested dependencies).
+The tidyverse package is a meta R package that loads eight core packages when invoked, and also bundles numerous other packages upon installation (as suggested dependencies).
 These packages all share a design philosophy as well as common grammar and data structures.
 The core packages and the phases of the data science cycle they address are shown in Figure \ref{fig:data-science-cycle}.
 
@@ -249,7 +249,7 @@ In keeping with the "let them eat cake first" approach [@cetinkaya2020fresh; @wa
 Deeper discussions about syntax and under-the-hood programming concepts can occur in subsequent courses after students are already invested in using R.
 The approach we recommend is not tidyverse instead of base R, but tidyverse (mostly) before base R. 
 
-We typically espouse a policy of being "disciplined in what we teach, liberal in what we accept" [@postel1980dod].
+We typically espouse a policy of being disciplined in what we teach, liberal in what we accept [@postel1980dod].
 In this paradigm, instructors are careful about what they teach but choose an appropriate level of flexibility in the code that students may submit.
 One might adopt a policy that any code that works is acceptable.
 Another might insist that only tidyverse patterns are acceptable.
@@ -371,7 +371,7 @@ As mentioned previously, most of base R's plotting functionality is built around
 In some cases, the plot types are relatively easy to identify by name (e.g., `hist()`, `barplot()`, `boxplot()`) while others are less obvious (e.g., `abline()`, `image()`, or `par()`).
 The base R plotting functions are part of the **graphics** package, which is loaded automatically by all R sessions.
 
-To visualize using tidyverse principles, we use one of the core tidyverse packages: **ggplot2**.
+To visualize using tidyverse principles, we use one of the core tidyverse packages: ggplot2.
 In ggplot2, different plot types are implemented using geometry functions (prefixed with `geom_`) which map variables in the data to various aesthetic properties (e.g., horizontal and vertical position, size, color, etc.) of the plots.
 One of the immediate advantages of using `geom_*()` functions for plotting is the reduction in the search space of possible plotting functions.
 The prefix works effectively to organize the search space to the possible functions and their associated documentation.
@@ -386,7 +386,7 @@ In contrast, base R graphics are generally built up using multiple function call
 
 \ref{ggplot-exref} presents an example of side-by-side boxplots of `loan_amount` as a function of `application_type` and `homeownership`.
 
-```{r ggplot_ex, ref = "ggplot-exref", codecap = "Using ggplot2 to create boxplots of \\texttt{loan\\_amount} broken down by both \\texttt{application\\_type} and \\texttt{homeownership}.", fig.asp = 0.5}
+```{r ggplot_ex, ref = "ggplot-exref", codecap = "Using ggplot2 to create boxplots of \\texttt{loan\\_amount} broken down by both \\texttt{application\\_type} and \\texttt{homeownership}.", out.width = "100%", fig.asp = 0.35, fig.width = 9}
 loans |>
   ggplot(aes(y = loan_amount, x = application_type)) +
   geom_boxplot() +
@@ -396,7 +396,7 @@ loans |>
 The figure is constructed in three calls: one to bind the data and map the variables to aesthetics, another to draw the boxplot, and the last to facet by levels of `homeownership`.
 A similar plot can be constructed using base R graphics (see \ref{base-plot-ex}), however the process of creating facets is more burdensome as it requires using creation of separate plots with a `for()` loop and subsetting to iterate over the unique levels of `homeownership`.
 
-```{r base_plot_ex, ref = "base-plot-ex", codecap = "Using base R to create boxplots of \\texttt{loan\\_amount} broken down by both \\texttt{application\\_type} and \\texttt{homeownership}.", fig.asp = 0.5}
+```{r base_plot_ex, ref = "base-plot-ex", codecap = "Using base R to create boxplots of \\texttt{loan\\_amount} broken down by both \\texttt{application\\_type} and \\texttt{homeownership}.", out.width = "100%", fig.asp = 0.35, fig.width = 9}
 levels <- sort(unique(loans$homeownership))
 n <- length(levels)
 
@@ -413,7 +413,7 @@ for(i in seq_len(n)) {
 As seen in \ref{ggplot-ex2}, in ggplot2 it is straightforward to extend the original boxplot to more data dimensions by mapping another variable to an additional aesthetic.
 For example, adding `fill = bankruptcy` to the `aes()` call will create a plot that now displays four dimensions of the original data.
 
-```{r ggplot_ex2, ref = "ggplot-ex2", codecap = "Using ggplot2 to create boxplots of \\texttt{loan\\_amount} broken down by both \\texttt{application\\_type} and \\texttt{homeownership}, filled by \\texttt{bankruptcy}.", fig.asp = 0.5, out.width = "90%"}
+```{r ggplot_ex2, ref = "ggplot-ex2", codecap = "Using ggplot2 to create boxplots of \\texttt{loan\\_amount} broken down by both \\texttt{application\\_type} and \\texttt{homeownership}, filled by \\texttt{bankruptcy}.", out.width = "100%", fig.asp = 0.35, fig.width = 9}
 loans |>
   ggplot(aes(y = loan_amount, x = application_type, fill = bankruptcy)) +
   geom_boxplot() +
@@ -424,7 +424,7 @@ Splitting the data to create multiple boxplots based on different variables is p
 
 Next we generate scatterplots of interest rate as a function of income, where the points and linear fits are colored by the bankruptcy status of the loan recipient.
 
-```{r ggplot-scat, ref = "ggplot-scat", codecap = "Using ggplot2 to create a scatterplot of \\texttt{interest\\_rate} versus annual income, colored by \\texttt{bankruptcy}.", out.width = "80%", message = FALSE}
+```{r ggplot-scat, ref = "ggplot-scat", codecap = "Using ggplot2 to create a scatterplot of \\texttt{interest\\_rate} versus annual income, colored by \\texttt{bankruptcy}.", out.width = "80%", message = FALSE, fig.asp = 0.618, fig.width = 8}
 loans |>
   ggplot(aes(y = interest_rate, x = annual_income, color = bankruptcy)) +
   geom_point(alpha = 0.1) + 
@@ -448,8 +448,7 @@ options(scipen = 5)
 
 Base R code is used in \ref{base-scat} to create a similar scatterplot, but the syntax requires careful study of the documentation for `par()` and multiple separate calls of `lm()`.
 
-```{r base-scat, ref = "base-scat", codecap = "Using base R to create a scatterplot of \\texttt{interest\\_rate} versus annual income, colored by \\texttt{bankruptcy}.", out.width = "80%"}
-# From the ColorBrewer Set2 palette
+```{r base-scat, ref = "base-scat", codecap = "Using base R to create a scatterplot of \\texttt{interest\\_rate} versus annual income, colored by \\texttt{bankruptcy}.", out.width = "80%", fig.asp = 0.618, fig.width = 8}
 cols = c(No = "#E69F00", Yes = "#56B4E9")
 
 plot(
@@ -529,7 +528,7 @@ The pre-processing step can scale variables or filter for highly correlated cova
 The training step can use anything from a linear model to a support vector machine to a neural network.
 The validating step incorporates cross validation or prediction on a test dataset to evaluate the user's metric of choice.
 
-**Database technologies** are supported using the **dplyr** [@R-dplyr] and **dbplyr** [@R-dbplyr] packages, which facilitate access to SQL databases using the same general syntax and idioms learned with the tidyverse.
+**Database technologies** are supported using the dplyr [@R-dplyr] and **dbplyr** [@R-dbplyr] packages, which facilitate access to SQL databases using the same general syntax and idioms learned with the tidyverse.
 As an example, we can access and summarize data from a publicly accessible repository of audiological measurements [@voss_2019] using the same form as our earlier wrangling (see Section \ref{sec:wrangle}).
 
 ```{r SQL_ex, ref = "SQL-ex", codecap = "Applying tidyverse wrangling to data which has been queried from a SQL database."}
@@ -563,7 +562,7 @@ However, it's not possible to write "tidyverse code" without using base R functi
 Additionally, because the input and output of tidyverse functions are "normal" R objects (typically, a data frame), an instructor can be consistent without coding exclusively in the tidyverse.
 
 In Section \ref{sec:extra} we illustrate how the infer package can be used in an introductory statistics course to extend the tidyverse framework to include statistical inference.
-However, one can certainly teach introductory statistics by combining the core tidyverse functionality (i.e., dplyr and ggplot2) for wrangling with base R implementations of inferential functions (e.g., `t.test()`, `chisq.test()`, etc.).
+However, one can certainly teach introductory statistics by combining functionality from the most popular tidyverse functionality (i.e., dplyr and ggplot2) for wrangling with base R implementations of inferential functions (e.g., `t.test()`, `chisq.test()`, etc.).
 The combination of functions will necessitate some inconsistency, since some base R inferential functions accept vectors as inputs rather than data frames.
 However, as with explaining the difference between the `+` and `|>`, instructors can explain that data wrangling and visualization always use data frames, but that inferential functions sometimes use vectors.
 We believe that inference is smoother with the infer package, but a decision not to adopt infer should not preclude an instructor from adopting the tidyverse for other tasks.
@@ -683,7 +682,7 @@ These functions were introduced in the **reshape2** [@R-reshape2] package in 201
 However, that was not the end of the improvements to the functions.
 Many users reported difficulty remembering when to use `melt()` and when to use `cast()`.
 While they were somewhat 'cute' names, they did not hold inherent meaning in the context of data analysis.
-The next iteration in 2014 introduced the functions `gather()` and `spread()` in the **tidyr** [@R-tidyr] package.
+The next iteration in 2014 introduced the functions `gather()` and `spread()` in the tidyr [@R-tidyr] package.
 The verbs `gather()` and `spread()` were somewhat easier for users to remember, and included the arguments `key` and `value`, which were familiar to database programmers.
 However, the improvement left even experienced programmers consulting the documentation too frequently.
 
@@ -784,7 +783,7 @@ The advantage of well-chosen function names is that once you explain what a func
 ## Community {#sec:community}
 
 We note the tidyverse's popularity across a wide variety of disciplines and application areas, including in industry. 
-While companies often keep their software choices private, a number of high-profile companies publicly use the tidyverse, including AirBnB [@bion_how_2018], T-Mobile [@nolis_were_2020], Stack Overflow [@robinson_exploring_2015], and many more [@rstudio_pbc_rstudio_nodate]. 
+While companies often keep their software choices private, a number of high-profile companies publicly use the tidyverse, including Airbnb [@bion_how_2018], T-Mobile [@nolis_were_2020], Stack Overflow [@robinson_exploring_2015], and many more [@rstudio_pbc_rstudio_nodate]. 
 The tidyverse is also used at many journalistic outlets, including the BBC [@bbc_visual_and_data_journalism_how_2019] and FiveThirtyEight [@flowers_fivethirtyeights_2016], as well as by nonprofits such as the ACLU [@watson_r_2019] and The Urban Institute [@dataurban_building_2019].
 
 Popularity not only indicates that professional users find it to be a worthwhile tool, but also can actually increase students' ability to engage with R.
@@ -812,14 +811,14 @@ Thus, for undergraduates, learning how to write SQL queries is a useful step tow
 
 The dplyr package was written with SQL in mind.
 As described in Section \ref{sec:wrangle}, the main verbs, along with the various `*_join()` functions, comprise a set of functions that can serve as the building blocks for SQL queries.
-The **dbplyr** package provides functionality that will translate dplyr pipelines into SQL queries, enabling R users to query SQL databases without having to write SQL code.
+The dbplyr package provides functionality that will translate dplyr pipelines into SQL queries, enabling R users to query SQL databases without having to write SQL code.
 However, since knowing how to write an SQL query is a useful skill for students to develop, learning data wrangling through dplyr has the beneficial side effect of giving students a conceptual understanding of SQL with minimal additional cognitive load.
 That is, the work that students have put in to learn data wrangling in dplyr can be easily extended into achieving SQL fluency.
 Instructors can pair a few weeks of dplyr instruction with a few weeks of SQL instruction and have reasonable confidence that students can develop basic proficiency in *both* technologies.
 
 Students can engage in a comparative literature exercise in which they map each function in the dplyr pipeline to a different clause in the SQL statement.
 The comparison of SQL and dplyr syntax can reinforce the message that the underlying concepts are the same here: it is only the programming syntax that differs between R and SQL.
-To fully drive the 1-to-1 equivalence home, **dbplyr** contains the function `show_query()` that will explicitly translate a dplyr pipeline to a SQL query.
+To fully drive the 1-to-1 equivalence home, the dbplyr package contains the function `show_query()` that will explicitly translate a dplyr pipeline to a SQL query.
 \ref{show-query} shows the SQL translation of the audiological measurement query shown in \ref{SQL-ex}.
 
 ```{r show-query, ref = "show-query", codecap = "A SQL translation of the dplyr pipeline shown in \\ref{SQL-ex}."}
@@ -905,7 +904,7 @@ In any case, we view the possibility of these breaking changes as the price one 
 
 
 Other criticisms of teaching R with the tidyverse to introductory students center around the tidyverse's extensive use of non-standard evaluation (NSE).
-Much of the user-centered design of the tidyverse relies on the use of NSE within R (e.g., not having to quote column names within a **dplyr** function).
+Much of the user-centered design of the tidyverse relies on the use of NSE within R (e.g., not having to quote column names within a dplyr function).
 The complexity of NSE is hidden from students because it is not something they will meaningfully encounter until they try to write certain kinds of functions (specifically, a generic function that uses functions from the tidyverse, which in turn make use of NSE).
 This need is unlikely to arise in a first or even second course in statistics or data science.
 In advanced courses that might teach R as a programming language (e.g., package development), programming with NSE as well as other evaluation patterns used in R can be covered.

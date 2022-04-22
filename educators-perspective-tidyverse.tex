@@ -178,7 +178,7 @@ at all levels and majors to gain computational skills and thinking
 needed throughout the data science cycle. In this paper, we introduce
 the tidyverse from an educator's perspective. We provide a brief
 introduction to the tidyverse, demonstrate how foundational statistics
-and data science tasks are accomplised with the tidyverse, and discuss
+and data science tasks are accomplished with the tidyverse, and discuss
 the strengths of the tidyverse, particularly in the context of teaching
 and learning.
 \end{abstract}
@@ -331,12 +331,12 @@ Transferability & Data manipulation verbs inherit from SQL's query syntax\\
 \hypertarget{sec:principles}{%
 \section{Principles of the tidyverse}\label{sec:principles}}
 
-The \textbf{tidyverse} package is a meta R package that loads eight core
-packages when invoked, and also bundles numerous other packages upon
-installation (as suggested dependencies). These packages all share a
-design philosophy as well as common grammar and data structures. The
-core packages and the phases of the data science cycle they address are
-shown in Figure \ref{fig:data-science-cycle}.
+The tidyverse package is a meta R package that loads eight core packages
+when invoked, and also bundles numerous other packages upon installation
+(as suggested dependencies). These packages all share a design
+philosophy as well as common grammar and data structures. The core
+packages and the phases of the data science cycle they address are shown
+in Figure \ref{fig:data-science-cycle}.
 
 \linespread{1}
 \begin{figure}
@@ -568,8 +568,8 @@ occur in subsequent courses after students are already invested in using
 R. The approach we recommend is not tidyverse instead of base R, but
 tidyverse (mostly) before base R.
 
-We typically espouse a policy of being ``disciplined in what we teach,
-liberal in what we accept'' \citep{postel1980dod}. In this paradigm,
+We typically espouse a policy of being disciplined in what we teach,
+liberal in what we accept \citep{postel1980dod}. In this paradigm,
 instructors are careful about what they teach but choose an appropriate
 level of flexibility in the code that students may submit. One might
 adopt a policy that any code that works is acceptable. Another might
@@ -839,8 +839,8 @@ R plotting functions are part of the \textbf{graphics} package, which is
 loaded automatically by all R sessions.
 
 To visualize using tidyverse principles, we use one of the core
-tidyverse packages: \textbf{ggplot2}. In ggplot2, different plot types
-are implemented using geometry functions (prefixed with \texttt{geom\_})
+tidyverse packages: ggplot2. In ggplot2, different plot types are
+implemented using geometry functions (prefixed with \texttt{geom\_})
 which map variables in the data to various aesthetic properties (e.g.,
 horizontal and vertical position, size, color, etc.) of the plots. One
 of the immediate advantages of using \texttt{geom\_*()} functions for
@@ -883,7 +883,7 @@ generally built up using multiple function calls (e.g.,
 \end{Highlighting}
 \end{Shaded}
 
-\begin{center}\includegraphics[width=0.8\linewidth]{educators-perspective-tidyverse_files/figure-latex/ggplot_ex-1} \end{center}
+\begin{center}\includegraphics[width=1\linewidth]{educators-perspective-tidyverse_files/figure-latex/ggplot_ex-1} \end{center}
 \captionof{chunk}{Using ggplot2 to create boxplots of \texttt{loan\_amount} broken down by both \texttt{application\_type} and \texttt{homeownership}.}
 
 \label{ggplot-exref} \linespread{2}
@@ -915,7 +915,7 @@ iterate over the unique levels of \texttt{homeownership}.
 \end{Highlighting}
 \end{Shaded}
 
-\begin{center}\includegraphics[width=0.8\linewidth]{educators-perspective-tidyverse_files/figure-latex/base_plot_ex-1} \end{center}
+\begin{center}\includegraphics[width=1\linewidth]{educators-perspective-tidyverse_files/figure-latex/base_plot_ex-1} \end{center}
 \captionof{chunk}{Using base R to create boxplots of \texttt{loan\_amount} broken down by both \texttt{application\_type} and \texttt{homeownership}.}
 
 \label{base-plot-ex} \linespread{2}
@@ -938,7 +938,7 @@ plot that now displays four dimensions of the original data.
 \end{Highlighting}
 \end{Shaded}
 
-\begin{center}\includegraphics[width=0.9\linewidth]{educators-perspective-tidyverse_files/figure-latex/ggplot_ex2-1} \end{center}
+\begin{center}\includegraphics[width=1\linewidth]{educators-perspective-tidyverse_files/figure-latex/ggplot_ex2-1} \end{center}
 \captionof{chunk}{Using ggplot2 to create boxplots of \texttt{loan\_amount} broken down by both \texttt{application\_type} and \texttt{homeownership}, filled by \texttt{bankruptcy}.}
 
 \label{ggplot-ex2} \linespread{2}
@@ -988,7 +988,6 @@ but the syntax requires careful study of the documentation for
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\CommentTok{\# From the ColorBrewer Set2 palette}
 \NormalTok{cols }\OtherTok{=} \FunctionTok{c}\NormalTok{(}\AttributeTok{No =} \StringTok{"\#E69F00"}\NormalTok{, }\AttributeTok{Yes =} \StringTok{"\#56B4E9"}\NormalTok{)}
 
 \FunctionTok{plot}\NormalTok{(}
@@ -1118,7 +1117,7 @@ model to a support vector machine to a neural network. The validating
 step incorporates cross validation or prediction on a test dataset to
 evaluate the user's metric of choice.
 
-\textbf{Database technologies} are supported using the \textbf{dplyr}
+\textbf{Database technologies} are supported using the dplyr
 \citep{R-dplyr} and \textbf{dbplyr} \citep{R-dbplyr} packages, which
 facilitate access to SQL databases using the same general syntax and
 idioms learned with the tidyverse. As an example, we can access and
@@ -1197,13 +1196,13 @@ tidyverse.
 In Section \ref{sec:extra} we illustrate how the infer package can be
 used in an introductory statistics course to extend the tidyverse
 framework to include statistical inference. However, one can certainly
-teach introductory statistics by combining the core tidyverse
-functionality (i.e., dplyr and ggplot2) for wrangling with base R
-implementations of inferential functions (e.g., \texttt{t.test()},
-\texttt{chisq.test()}, etc.). The combination of functions will
-necessitate some inconsistency, since some base R inferential functions
-accept vectors as inputs rather than data frames. However, as with
-explaining the difference between the \texttt{+} and
+teach introductory statistics by combining functionality from the most
+popular tidyverse functionality (i.e., dplyr and ggplot2) for wrangling
+with base R implementations of inferential functions (e.g.,
+\texttt{t.test()}, \texttt{chisq.test()}, etc.). The combination of
+functions will necessitate some inconsistency, since some base R
+inferential functions accept vectors as inputs rather than data frames.
+However, as with explaining the difference between the \texttt{+} and
 \texttt{\textbar{}\textgreater{}}, instructors can explain that data
 wrangling and visualization always use data frames, but that inferential
 functions sometimes use vectors. We believe that inference is smoother
@@ -1498,12 +1497,12 @@ the functions. Many users reported difficulty remembering when to use
 \texttt{melt()} and when to use \texttt{cast()}. While they were
 somewhat `cute' names, they did not hold inherent meaning in the context
 of data analysis. The next iteration in 2014 introduced the functions
-\texttt{gather()} and \texttt{spread()} in the \textbf{tidyr}
-\citep{R-tidyr} package. The verbs \texttt{gather()} and
-\texttt{spread()} were somewhat easier for users to remember, and
-included the arguments \texttt{key} and \texttt{value}, which were
-familiar to database programmers. However, the improvement left even
-experienced programmers consulting the documentation too frequently.
+\texttt{gather()} and \texttt{spread()} in the tidyr \citep{R-tidyr}
+package. The verbs \texttt{gather()} and \texttt{spread()} were somewhat
+easier for users to remember, and included the arguments \texttt{key}
+and \texttt{value}, which were familiar to database programmers.
+However, the improvement left even experienced programmers consulting
+the documentation too frequently.
 
 The most recent iteration of the pair of functions is
 \texttt{pivot\_wider()} and \texttt{pivot\_longer()}, introduced in
@@ -1735,7 +1734,7 @@ it again.
 We note the tidyverse's popularity across a wide variety of disciplines
 and application areas, including in industry. While companies often keep
 their software choices private, a number of high-profile companies
-publicly use the tidyverse, including AirBnB \citep{bion_how_2018},
+publicly use the tidyverse, including Airbnb \citep{bion_how_2018},
 T-Mobile \citep{nolis_were_2020}, Stack Overflow
 \citep{robinson_exploring_2015}, and many more
 \citep{rstudio_pbc_rstudio_nodate}. The tidyverse is also used at many
@@ -1798,13 +1797,13 @@ industry.
 The dplyr package was written with SQL in mind. As described in Section
 \ref{sec:wrangle}, the main verbs, along with the various
 \texttt{*\_join()} functions, comprise a set of functions that can serve
-as the building blocks for SQL queries. The \textbf{dbplyr} package
-provides functionality that will translate dplyr pipelines into SQL
-queries, enabling R users to query SQL databases without having to write
-SQL code. However, since knowing how to write an SQL query is a useful
-skill for students to develop, learning data wrangling through dplyr has
-the beneficial side effect of giving students a conceptual understanding
-of SQL with minimal additional cognitive load. That is, the work that
+as the building blocks for SQL queries. The dbplyr package provides
+functionality that will translate dplyr pipelines into SQL queries,
+enabling R users to query SQL databases without having to write SQL
+code. However, since knowing how to write an SQL query is a useful skill
+for students to develop, learning data wrangling through dplyr has the
+beneficial side effect of giving students a conceptual understanding of
+SQL with minimal additional cognitive load. That is, the work that
 students have put in to learn data wrangling in dplyr can be easily
 extended into achieving SQL fluency. Instructors can pair a few weeks of
 dplyr instruction with a few weeks of SQL instruction and have
@@ -1816,7 +1815,7 @@ map each function in the dplyr pipeline to a different clause in the SQL
 statement. The comparison of SQL and dplyr syntax can reinforce the
 message that the underlying concepts are the same here: it is only the
 programming syntax that differs between R and SQL. To fully drive the
-1-to-1 equivalence home, \textbf{dbplyr} contains the function
+1-to-1 equivalence home, the dbplyr package contains the function
 \texttt{show\_query()} that will explicitly translate a dplyr pipeline
 to a SQL query. \ref{show-query} shows the SQL translation of the
 audiological measurement query shown in \ref{SQL-ex}.
@@ -1994,18 +1993,17 @@ Other criticisms of teaching R with the tidyverse to introductory
 students center around the tidyverse's extensive use of non-standard
 evaluation (NSE). Much of the user-centered design of the tidyverse
 relies on the use of NSE within R (e.g., not having to quote column
-names within a \textbf{dplyr} function). The complexity of NSE is hidden
-from students because it is not something they will meaningfully
-encounter until they try to write certain kinds of functions
-(specifically, a generic function that uses functions from the
-tidyverse, which in turn make use of NSE). This need is unlikely to
-arise in a first or even second course in statistics or data science. In
-advanced courses that might teach R as a programming language (e.g.,
-package development), programming with NSE as well as other evaluation
-patterns used in R can be covered. Many tidyverse packages provide
-specific documentation to help users learn how to use tidyverse tools in
-functions and packages they write
-\citep{programdplyr, ggplot2inpackage}.
+names within a dplyr function). The complexity of NSE is hidden from
+students because it is not something they will meaningfully encounter
+until they try to write certain kinds of functions (specifically, a
+generic function that uses functions from the tidyverse, which in turn
+make use of NSE). This need is unlikely to arise in a first or even
+second course in statistics or data science. In advanced courses that
+might teach R as a programming language (e.g., package development),
+programming with NSE as well as other evaluation patterns used in R can
+be covered. Many tidyverse packages provide specific documentation to
+help users learn how to use tidyverse tools in functions and packages
+they write \citep{programdplyr, ggplot2inpackage}.
 
 \hypertarget{coda}{%
 \subsection{Coda}\label{coda}}
