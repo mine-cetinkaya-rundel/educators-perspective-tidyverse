@@ -1,0 +1,596 @@
+\begin{thebibliography}{xx}
+
+\harvarditem{Bache \harvardand\ Wickham}{2020}{R-magrittr}
+Bache, S.~M. \harvardand\ Wickham, H.  \harvardyearleft 2020\harvardyearright ,
+  {\em magrittr: A Forward-Pipe Operator for R}.
+\newblock R package version 2.0.1.
+\newline\harvardurl{https://CRAN.R-project.org/package=magrittr}
+
+\harvarditem{Bashir \harvardand\ Eddelbuettel}{2018}{tinyverse2018}
+Bashir, S. \harvardand\ Eddelbuettel, D.  \harvardyearleft
+  2018\harvardyearright , `Getting started in {R}: Tinyverse edition',
+  tinyverse.org.
+\newline\harvardurl{https://eddelbuettel.github.io/gsir-te/Getting-Started-in-R.pdf}
+
+\harvarditem[{Baumer} et~al.]{{Baumer}, {{\c{C}}etinkaya-Rundel}, {Bray}, {Loi}
+  \harvardand\ {Horton}}{2014}{baumer2014}
+{Baumer}, B., {{\c{C}}etinkaya-Rundel}, M., {Bray}, A., {Loi}, L. \harvardand\
+  {Horton}, N.~J.  \harvardyearleft 2014\harvardyearright , `R markdown:
+  Integrating a reproducible analysis tool into introductory statistics', {\em
+  Technology Innovations in Statistics Education} {\bf 8}(1).
+\newline\harvardurl{https://escholarship.org/uc/item/90b2f5xh}
+
+\harvarditem[Baumer et~al.]{Baumer, Kaplan \harvardand\
+  Horton}{2021}{baumer2021mdsr}
+Baumer, B.~S., Kaplan, D.~T. \harvardand\ Horton, N.~J.  \harvardyearleft
+  2021\harvardyearright , {\em {Modern Data Science with R}}, 2nd edn, Chapman
+  and Hall/CRC Press: Boca Raton.
+\newline\harvardurl{https://www.routledge.com/Modern-Data-Science-with-R/Baumer-Kaplan-Horton/p/book/9780367191498}
+
+\harvarditem{{BBC Visual and Data
+  Journalism}}{2019}{bbc_visual_and_data_journalism_how_2019}
+{BBC Visual and Data Journalism}  \harvardyearleft 2019\harvardyearright , `How
+  the {BBC} visual and data journalism team works with graphics in {R}',
+  Medium.com.
+\newline\harvardurl{https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535}
+
+\harvarditem[Beckman et~al.]{Beckman, {\c{C}}etinkaya-Rundel, Horton, Rundel,
+  Sullivan \harvardand\ Tackett}{2021}{beckman2021implementing}
+Beckman, M.~D., {\c{C}}etinkaya-Rundel, M., Horton, N.~J., Rundel, C.~W.,
+  Sullivan, A.~J. \harvardand\ Tackett, M.  \harvardyearleft
+  2021\harvardyearright , `Implementing version control with git and {{GitHub}}
+  as a learning objective in statistics and data science courses', {\em Journal
+  of Statistics and Data Science Education} {\bf 29}(sup1),~S132--S144.
+
+\harvarditem[Bion et~al.]{Bion, Chang \harvardand\
+  Goodman}{2018}{bion_how_2018}
+Bion, R., Chang, R. \harvardand\ Goodman, J.  \harvardyearleft
+  2018\harvardyearright , `How {R} helps {AirBnB} make the most of its data',
+  {\bf 72}(1),~46--52.
+\newline\harvardurl{https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1392362}
+
+\harvarditem[Bray et~al.]{Bray, Ismay, Chasnovski, Couch, Baumer \harvardand\
+  {\c{C}}etinkaya-Rundel}{2021}{R-infer}
+Bray, A., Ismay, C., Chasnovski, E., Couch, S., Baumer, B. \harvardand\
+  {\c{C}}etinkaya-Rundel, M.  \harvardyearleft 2021\harvardyearright , {\em
+  infer: Tidy Statistical Inference}.
+\newblock https://github.com/tidymodels/infer, https://infer.tidymodels.org/.
+
+\harvarditem[Burr et~al.]{Burr, Chevalier, Collins, Gibbs, Ng \harvardand\
+  Wild}{2021}{burr2021}
+Burr, W., Chevalier, F., Collins, C., Gibbs, A., Ng, R. \harvardand\ Wild, C.
+  \harvardyearleft 2021\harvardyearright , `Computational skills by stealth in
+  introductory data science teaching', {\em Teaching Statistics} {\bf
+  43},~S34--S51.
+\newline\harvardurl{https://onlinelibrary.wiley.com/doi/10.1111/test.12277}
+
+\harvarditem[Carver et~al.]{Carver, Everson, Gabrosek, Horton, Lock, Mocko,
+  Rossman, Rowell, Velleman, Witmer \harvardand\ Wood}{2016}{CarEve2016}
+Carver, R., Everson, M., Gabrosek, J., Horton, N.~J., Lock, R.~H., Mocko, M.,
+  Rossman, A., Rowell, G.~H., Velleman, P., Witmer, J.~A. \harvardand\ Wood, B.
+   \harvardyearleft 2016\harvardyearright , {\em Guidelines for Assessment and
+  Instruction in Statistics Education: College Report 2016}, American
+  Statistical Association: Alexandria, VA.
+\newline\harvardurl{https://commons.erau.edu/publication/1083}
+
+\harvarditem[{\c{C}}etinkaya-Rundel et~al.]{{\c{C}}etinkaya-Rundel, Diez, Bray,
+  Kim, Baumer, Ismay, Paterno \harvardand\ Barr}{2021}{R-openintro}
+{\c{C}}etinkaya-Rundel, M., Diez, D., Bray, A., Kim, A.~Y., Baumer, B., Ismay,
+  C., Paterno, N. \harvardand\ Barr, C.  \harvardyearleft 2021\harvardyearright
+  , {\em openintro: Data Sets and Supplemental Functions from OpenIntro
+  Textbooks and Labs}.
+\newblock R package version 2.2.0.
+\newline\harvardurl{https://CRAN.R-project.org/package=openintro}
+
+\harvarditem{{\c{C}}etinkaya-Rundel \harvardand\
+  Ellison}{2021}{cetinkaya2020fresh}
+{\c{C}}etinkaya-Rundel, M. \harvardand\ Ellison, V.  \harvardyearleft
+  2021\harvardyearright , `A fresh look at introductory data science', {\em
+  Journal of Statistics and Data Science Education} pp.~1--11.
+\newline\harvardurl{https://doi.org/10.1080/10691898.2020.1804497}
+
+\harvarditem{{\c{C}}etinkaya-Rundel \harvardand\
+  Hardin}{2021}{cetinkaya_hardin_2021}
+{\c{C}}etinkaya-Rundel, M. \harvardand\ Hardin, J.  \harvardyearleft
+  2021\harvardyearright , {\em Introduction to Modern Statistics}, OpenIntro:
+  Los Angeles.
+\newline\harvardurl{https://www.openintro.org/book/ims/}
+
+\harvarditem{Codd}{1970}{codd1970database}
+Codd, E.~F.  \harvardyearleft 1970\harvardyearright , `A relational model of
+  data for large shared data banks', {\em Communications of the ACM} {\bf
+  13}(6),~377--387.
+\newline\harvardurl{https://doi.org/10.1145/362384.362685}
+
+\harvarditem{Cook}{2021}{R-tidyquery}
+Cook, I.  \harvardyearleft 2021\harvardyearright , {\em tidyquery: Query 'R'
+  Data Frames with 'SQL'}.
+\newblock R package version 0.2.3.
+\newline\harvardurl{https://CRAN.R-project.org/package=tidyquery}
+
+\harvarditem{Data@Urban}{2019}{dataurban_building_2019}
+Data@Urban  \harvardyearleft 2019\harvardyearright , `Building an {R} community
+  at the {Urban Institute}', Medium.com.
+\newline\harvardurl{https://urban-institute.medium.com/building-an-r-community-at-the-urban-institute-b66739aaaaa7}
+
+\harvarditem{Dierker}{2021}{dierker2021}
+Dierker, L.  \harvardyearleft 2021\harvardyearright , {\em Passion-Driven
+  Statistics: A Supportive, Multidisciplinary, Project-Based, Introductory
+  Course}, Wesleyan University: Middletown, CT.
+\newline\harvardurl{https://passiondrivenstatistics.wescreates.wesleyan.edu/e-book}
+
+\harvarditem{Eddelbuettel}{2018}{eddelbuettel2018}
+Eddelbuettel, D.  \harvardyearleft 2018\harvardyearright , `\#17:
+  Dependencies', dirk.eddelbuettel.com.
+\newline\harvardurl{http://dirk.eddelbuettel.com/blog/2018/02/28/\#017\_dependencies}
+
+\harvarditem{Fergusson \harvardand\ Pfannkuch}{2021}{fergusson2021}
+Fergusson, A. \harvardand\ Pfannkuch, M.  \harvardyearleft
+  2021\harvardyearright , `Introducing teachers who use {{GUI}}-driven tools
+  for the randomization test to code-driven tools', {\em Mathematical Thinking
+  and Learning} pp.~1--21.
+\newline\harvardurl{https://www.tandfonline.com/doi/full/10.1080/10986065.2021.1922856}
+
+\harvarditem{Flowers}{2016}{flowers_fivethirtyeights_2016}
+Flowers, A.  \harvardyearleft 2016\harvardyearright , {FiveThirtyEight}'s data
+  journalism workflow with {R}, {\em in} `{useR!} 2016'.
+\newline\harvardurl{https://user2016.sched.com/event/7BZZ/fivethirtyeights-data-journalism-workflow-with-r}
+
+\harvarditem{Garnier}{2021}{R-viridis}
+Garnier, S.  \harvardyearleft 2021\harvardyearright , {\em viridis:
+  Colorblind-Friendly Color Maps for R}.
+\newblock R package version 0.6.1.
+\newline\harvardurl{https://CRAN.R-project.org/package=viridis}
+
+\harvarditem[Gehrke et~al.]{Gehrke, Kistler, L{\"{u}}bke, Markgraf, Krol
+  \harvardand\ Sauer}{2021}{gehrke2021}
+Gehrke, M., Kistler, T., L{\"{u}}bke, K., Markgraf, N., Krol, B. \harvardand\
+  Sauer, S.  \harvardyearleft 2021\harvardyearright , `Statistics education
+  from a data‐centric perspective', {\em Teaching Statistics} {\bf
+  43},~S201--S215.
+\newline\harvardurl{https://onlinelibrary.wiley.com/doi/10.1111/test.12264}
+
+\harvarditem{Google}{2021}{google-style}
+Google  \harvardyearleft 2021\harvardyearright , {\em Google's {R} Style
+  Guide}, Google: Mountain View, CA.
+\newline\harvardurl{https://google.github.io/styleguide/Rguide.html}
+
+\harvarditem[Guzman et~al.]{Guzman, Pennell, Nikelski \harvardand\
+  Srivastava}{2019}{guzman2019successful}
+Guzman, L.~M., Pennell, M.~W., Nikelski, E. \harvardand\ Srivastava, D.~S.
+  \harvardyearleft 2019\harvardyearright , `Successful integration of data
+  science in undergraduate biostatistics courses using cognitive load theory',
+  {\em CBE—Life Sciences Education} {\bf 18}(4),~1--10.
+\newline\harvardurl{https://doi.org/10.1187/cbe.19-02-0041}
+
+\harvarditem{Henry \harvardand\ Wickham}{2020}{R-purrr}
+Henry, L. \harvardand\ Wickham, H.  \harvardyearleft 2020\harvardyearright ,
+  {\em purrr: Functional Programming Tools}.
+\newblock R package version 0.3.4.
+\newline\harvardurl{https://CRAN.R-project.org/package=purrr}
+
+\harvarditem{Henry \harvardand\ Wickham}{2021}{R-lifecycle}
+Henry, L. \harvardand\ Wickham, H.  \harvardyearleft 2021\harvardyearright ,
+  {\em lifecycle: Manage the Life Cycle of your Package Functions}.
+\newblock R package version 1.0.0.
+\newline\harvardurl{https://CRAN.R-project.org/package=lifecycle}
+
+\harvarditem{Hermans \harvardand\ Aldewereld}{2017}{hermans2017writing}
+Hermans, F. \harvardand\ Aldewereld, M.  \harvardyearleft 2017\harvardyearright
+  , Programming is writing is programming, {\em in} `Companion to the First
+  International Conference on the Art, Science and Engineering of Programming',
+  Programming '17, Association for Computing Machinery, New York, NY, USA.
+\newline\harvardurl{https://doi.org/10.1145/3079368.3079413}
+
+\harvarditem[Hermans et~al.]{Hermans, Swidan \harvardand\
+  Aivaloglou}{2018}{HerSwi2018}
+Hermans, F., Swidan, A. \harvardand\ Aivaloglou, E.  \harvardyearleft
+  2018\harvardyearright , Code phonology: An exploration into the vocalization
+  of code, {\em in} `2018 {ACM/IEEE} 26th International Conference on Program
+  Comprehension'.
+\newline\harvardurl{https://doi.org/10.1145/3196321.3196355}
+
+\harvarditem[Horton et~al.]{Horton, Baumer \harvardand\
+  Wickham}{2015}{horton2015taking}
+Horton, N.~J., Baumer, B.~S. \harvardand\ Wickham, H.  \harvardyearleft
+  2015\harvardyearright , `Taking a chance in the classroom: Setting the stage
+  for data science: Integration of data management skills in introductory and
+  second courses in statistics', {\em Chance} {\bf 28}(2),~40--50.
+\newline\harvardurl{https://doi.org/10.1080/09332480.2015.1042739}
+
+\harvarditem{Horton \harvardand\ Hardin}{2021}{horthard_2021}
+Horton, N.~J. \harvardand\ Hardin, J.~S.  \harvardyearleft
+  2021\harvardyearright , `Integrating computing in the statistics and data
+  science curriculum: Creative structures, novel skills and habits, and ways to
+  teach computational thinking', {\em Journal of Statistics and Data Science
+  Education} {\bf 29}(sup1),~S1--S3.
+\newline\harvardurl{https://doi.org/10.1080/10691898.2020.1870416}
+
+\harvarditem{Hyndman \harvardand\
+  Athanasopoulos}{2021}{hyndmanathanasopoulos2021}
+Hyndman, R.~J. \harvardand\ Athanasopoulos, G.  \harvardyearleft
+  2021\harvardyearright , {\em Forecasting: {{Principles}} and {{Practice}}},
+  3rd edn, {OTexts: Melbourne, Australia}.
+\newline\harvardurl{https://otexts.com/fpp3/}
+
+\harvarditem{Ismay \harvardand\ Kim}{2019}{ismay2019statistical}
+Ismay, C. \harvardand\ Kim, A.~Y.  \harvardyearleft 2019\harvardyearright ,
+  {\em Statistical Inference via Data Science: A ModernDive into R and the
+  Tidyverse}, Chapman and Hall/CRC Press: Boca Raton.
+\newline\harvardurl{https://moderndive.com/}
+
+\harvarditem{Kleinman \harvardand\ Horton}{2009}{kleinman2009sas}
+Kleinman, K. \harvardand\ Horton, N.~J.  \harvardyearleft 2009\harvardyearright
+  , {\em SAS and R: Data management, statistical analysis, and graphics},
+  Chapman and Hall/CRC: New York.
+\newline\harvardurl{https://doi.org/10.1201/9781420070590}
+
+\harvarditem{Kling}{1977}{kling1977organizational}
+Kling, R.  \harvardyearleft 1977\harvardyearright , `The organizational context
+  of user-centered software designs', {\em MIS quarterly} {\bf 1}(4),~41--52.
+\newline\harvardurl{https://doi.org/10.2307/249021}
+
+\harvarditem{Kuhn \harvardand\ Wickham}{2021}{R-tidymodels}
+Kuhn, M. \harvardand\ Wickham, H.  \harvardyearleft 2021\harvardyearright ,
+  {\em tidymodels: Easily Install and Load the Tidymodels Packages}.
+\newblock R package version 0.1.3.
+\newline\harvardurl{https://CRAN.R-project.org/package=tidymodels}
+
+\harvarditem{Leek}{2016}{leek2016why}
+Leek, J.  \harvardyearleft 2016\harvardyearright , `Why {I} don't use ggplot2',
+  Simply Statistics.
+\newline\harvardurl{https://simplystatistics.org/posts/2016-02-11-why-i-dont-use-ggplot2/}
+
+\harvarditem{Lovett \harvardand\ Greenhouse}{2000}{lovettgreenhouse2000}
+Lovett, M.~C. \harvardand\ Greenhouse, J.~B.  \harvardyearleft
+  2000\harvardyearright , `Applying cognitive theory to statistics
+  instruction',  {\bf 54}(3),~196--206.
+\newline\harvardurl{http://www.tandfonline.com/doi/abs/10.1080/00031305.2000.10474545}
+
+\harvarditem{Matloff}{2020}{matloff2020tidyverse}
+Matloff, N.  \harvardyearleft 2020\harvardyearright , `Tidyverse skeptic: An
+  alternate view of the tidyverse "dialect" of the {R} language, and its
+  promotion by {RStudio}', GitHub.
+\newline\harvardurl{https://github.com/matloff/TidyverseSkeptic/blob/master/READMEFull.md}
+
+\harvarditem{McNamara}{2015}{mcnamara2015}
+McNamara, A.  \harvardyearleft 2015\harvardyearright , Bridging the Gap Between
+  Tools for Learning and for Doing Statistics, {{PhD}} thesis, {University of
+  California, Los Angeles}.
+\newline\harvardurl{https://www.proquest.com/docview/1694580439}
+
+\harvarditem{McNamara}{2019}{mcna_2019}
+McNamara, A.  \harvardyearleft 2019\harvardyearright , `Key attributes of a
+  modern statistical computing tool', {\em The American Statistician} {\bf
+  73}(4),~375--384.
+\newline\harvardurl{https://doi.org/10.1080/00031305.2018.1482784}
+
+\harvarditem{{McNamara}}{2020}{McN2020}
+{McNamara}, A.  \harvardyearleft 2020\harvardyearright , Speaking {R}, {useR}!
+  {The International R Users Conference}. keynote presentation.
+\newline\harvardurl{https://www.youtube.com/watch?v=ckW9sSdIVAc\&t=676s}
+
+\harvarditem{McNamara}{2021{\em a}}{mcnamaraamelia2021}
+McNamara, A.  \harvardyearleft 2021{\em a}\harvardyearright , `R syntax
+  cheatsheet'.
+\newline\harvardurl{https://osf.io/2k8fw/}
+
+\harvarditem{McNamara}{2021{\em b}}{mcnamara2021}
+McNamara, A.  \harvardyearleft 2021{\em b}\harvardyearright , `Reading {{R}}
+  code for "{{An}} educator’s perspective of the tidyverse"'.
+\newline\harvardurl{https://osf.io/r8mez/}
+
+\harvarditem{McNamara \harvardand\ Horton}{2018}{mcnamara2018wrangling}
+McNamara, A. \harvardand\ Horton, N.~J.  \harvardyearleft 2018\harvardyearright
+  , `Wrangling categorical data in {R}', {\em The American Statistician} {\bf
+  72}(1),~97--104.
+\newline\harvardurl{https://doi.org/10.1080/00031305.2017.1356375}
+
+\harvarditem[{McNamara} et~al.]{{McNamara}, Zieffler, Beckman, Legacy,
+  Butler~Basner, {delMas} \harvardand\ Rao}{2021}{mcnamaraetal2021a}
+{McNamara}, A., Zieffler, A., Beckman, M., Legacy, C., Butler~Basner, E.,
+  {delMas}, R. \harvardand\ Rao, V.~V.  \harvardyearleft 2021\harvardyearright
+  , Computing in the statistics curriculum: Lessons learned from the
+  educational sciences.
+\newblock United States Conference on Teaching Statistics (USCOTS).
+
+\harvarditem{McNicholas \harvardand\ Tait}{2019}{mcnicholas2019data}
+McNicholas, P.~D. \harvardand\ Tait, P.  \harvardyearleft 2019\harvardyearright
+  , {\em Data Science with {Julia}}, CRC Press: Boca Raton.
+\newline\harvardurl{https://www.routledge.com/Data-Science-with-Julia/McNicholas-Tait/p/book/9781138499980}
+
+\harvarditem[Myint et~al.]{Myint, Hadavand, Jager \harvardand\
+  Leek}{2020}{myint2020comparison}
+Myint, L., Hadavand, A., Jager, L. \harvardand\ Leek, J.  \harvardyearleft
+  2020\harvardyearright , `Comparison of beginning {{R}} students’
+  perceptions of peer-made plots created in two plotting systems: A randomized
+  experiment', {\em Journal of Statistics Education} {\bf 28}(1),~98--108.
+\newline\harvardurl{https://doi.org/10.1080/10691898.2019.1695554}
+
+\harvarditem{{National Academies of Science, Engineering, and
+  Medicine}}{2018}{nasem2018}
+{National Academies of Science, Engineering, and Medicine}  \harvardyearleft
+  2018\harvardyearright , {\em Data Science for Undergraduates: Opportunities
+  and Options}, National Academies Press: Washington, DC.
+\newblock Accessed: 2020-06-07.
+\newline\harvardurl{https://nas.edu/envisioningds}
+
+\harvarditem{Nolan \harvardand\ Perrett}{2016}{nolaperr_2016}
+Nolan, D. \harvardand\ Perrett, J.  \harvardyearleft 2016\harvardyearright ,
+  `Teaching and learning data visualization: Ideas and assignments', {\em The
+  American Statistician} {\bf 70}(3),~260--269.
+\newline\harvardurl{https://doi.org/10.1080/00031305.2015.1123651}
+
+\harvarditem{Nolan \harvardand\ {Temple Lang}}{2010}{nolan_templelang_2010}
+Nolan, D. \harvardand\ {Temple Lang}, D.  \harvardyearleft
+  2010\harvardyearright , `Computing in the statistics curriculum', {\em The
+  American Statistician} {\bf 64}(2),~97--107.
+\newline\harvardurl{https://doi.org/10.1198/tast.2010.09132}
+
+\harvarditem{Nolis \harvardand\ Nolis}{2020}{nolis_were_2020}
+Nolis, H. \harvardand\ Nolis, J.  \harvardyearleft 2020\harvardyearright ,
+  We’re hitting {R} a million times a day so we made a talk about it, {\em
+  in} `rstudio::conf 2020'.
+\newline\harvardurl{https://www.rstudio.com/resources/rstudioconf-2020/we-re-hitting-r-a-million-times-a-day-so-we-made-a-talk-about-it/}
+
+\harvarditem{Norman \harvardand\ Draper}{1986}{norman1986}
+Norman, D.~A. \harvardand\ Draper, S.~W.  \harvardyearleft
+  1986\harvardyearright , {\em User Centered System Design; New Perspectives on
+  Human-Computer Interaction}, 1st edn, L. Erlbaum Associates Inc.: Hillsdale,
+  NJ, USA.
+\newline\harvardurl{https://dl.acm.org/doi/10.5555/576915}
+
+\harvarditem{Postel}{1980}{postel1980dod}
+Postel, J.  \harvardyearleft 1980\harvardyearright , `{{DoD}} standard internet
+  protocol', {\em ACM SIGCOMM Computer Communication Review} {\bf
+  10}(4),~12--51.
+\newline\harvardurl{https://datatracker.ietf.org/doc/html/rfc760}
+
+\harvarditem[Pruim et~al.]{Pruim, Kaplan \harvardand\ Horton}{2017}{Pruim2017}
+Pruim, R., Kaplan, D.~T. \harvardand\ Horton, N.~J.  \harvardyearleft
+  2017\harvardyearright , `{The mosaic Package: Helping Students to `Think with
+  Data' Using R}', {\em {The R Journal}} {\bf 9}(1),~77--102.
+\newline\harvardurl{https://doi.org/10.32614/RJ-2017-024}
+
+\harvarditem{{R Core Team}}{2021}{Rlang}
+{R Core Team}  \harvardyearleft 2021\harvardyearright , {\em R: A Language and
+  Environment for Statistical Computing}, R Foundation for Statistical
+  Computing, Vienna, Austria.
+\newline\harvardurl{https://www.R-project.org/}
+
+\harvarditem{Roback \harvardand\ Legler}{2021}{robacklegler2021}
+Roback, P. \harvardand\ Legler, J.  \harvardyearleft 2021\harvardyearright ,
+  {\em Beyond Multiple Linear Regression: Applied Generalized Linear Models and
+  Multilevel Models In {R}}, Chapman and {{Hall Texts}} in {{Statistical
+  Science}}, 1st edn, {CRC Press: Boca Raton}.
+\newline\harvardurl{https://bookdown.org/roback/bookdown-BeyondMLR/}
+
+\harvarditem{Robinson}{2015}{robinson_exploring_2015}
+Robinson, D.  \harvardyearleft 2015\harvardyearright , `Exploring careers data
+  with sqlstackr, dplyr, and ggplot2: Interal stack overflow tutorial',
+  {RPubs}.
+\newline\harvardurl{https://rpubs.com/dgrtwo/190325}
+
+\harvarditem[Robinson et~al.]{Robinson, Hayes \harvardand\
+  Couch}{2021}{R-broom}
+Robinson, D., Hayes, A. \harvardand\ Couch, S.  \harvardyearleft
+  2021\harvardyearright , {\em broom: Convert Statistical Objects into Tidy
+  Tibbles}.
+\newblock R package version 0.7.8.
+\newline\harvardurl{https://CRAN.R-project.org/package=broom}
+
+\harvarditem{{RStudio PBC}}{2022}{rstudio_pbc_rstudio_nodate}
+{RStudio PBC}  \harvardyearleft 2022\harvardyearright , `{RStudio} customer
+  stories'.
+\newline\harvardurl{https://www.rstudio.com/about/customer-stories/}
+
+\harvarditem{{RStudio Team}}{2020}{rstudio}
+{RStudio Team}  \harvardyearleft 2020\harvardyearright , {\em RStudio:
+  Integrated Development Environment for R}, RStudio, PBC, Boston, MA.
+\newline\harvardurl{http://www.rstudio.com/}
+
+\harvarditem{Sarkar}{2021}{R-lattice}
+Sarkar, D.  \harvardyearleft 2021\harvardyearright , {\em lattice: Trellis
+  Graphics for R}.
+\newblock R package version 0.20-44.
+\newline\harvardurl{http://lattice.r-forge.r-project.org/}
+
+\harvarditem{Smith}{2016}{smithdavid2016}
+Smith, D.  \harvardyearleft 2016\harvardyearright , `Welcome to the
+  {{Tidyverse}}'.
+\newline\harvardurl{https://blog.revolutionanalytics.com/2016/09/tidyverse.html}
+
+\harvarditem[Soloway et~al.]{Soloway, Guzdial \harvardand\
+  Hay}{1994}{solowayetal1994}
+Soloway, E., Guzdial, M. \harvardand\ Hay, K.~E.  \harvardyearleft
+  1994\harvardyearright , `Learner-{{Centered Design}}: {{The Challenge}} for
+  {{HCI}} in the 21st {{Century}}', {\em Interactions} {\bf 1}(2),~36--48.
+\newline\harvardurl{https://doi.org/10.1145/174809.174813}
+
+\harvarditem{Swidan \harvardand\ Hermans}{2019}{SwiHer2019}
+Swidan, A. \harvardand\ Hermans, F.  \harvardyearleft 2019\harvardyearright ,
+  The effect of reading code aloud on comprehension: An empirical study with
+  school students, {\em in} `Proceedings of the ACM Conference on Global
+  Computing Education', CompEd '19, Association for Computing Machinery, New
+  York, NY, USA, pp.~178--184.
+\newline\harvardurl{https://doi.org/10.1145/3300115.3309504}
+
+\harvarditem[Thoma et~al.]{Thoma, Deitrick \harvardand\
+  Wilkerson}{2018}{thoma2021}
+Thoma, S., Deitrick, E. \harvardand\ Wilkerson, M.  \harvardyearleft
+  2018\harvardyearright , `"{I}t didn't really go very well": {E}pistemological
+  framing and the complexity of interdisciplinary computing activities', {\em
+  International Society of the Learning Sciences, Inc.} .
+\newline\harvardurl{https://repository.isls.org/bitstream/1/574/1/249.pdf}
+
+\harvarditem[Tucker et~al.]{Tucker, Shaw, Son \harvardand\
+  Stigler}{2021}{tuckerstatistics2021}
+Tucker, M., Shaw, S., Son, J. \harvardand\ Stigler, J.  \harvardyearleft
+  2021\harvardyearright , Integrating {R} in a college statistics course
+  improves student attitudes toward programming, {\em in} `Annual Meeting of
+  the American Educational Research Association', Orlando, Florida.
+\newblock accepted.
+
+\harvarditem{Van~Rossum \harvardand\ Drake~Jr}{1995}{CS-R9526}
+Van~Rossum, G. \harvardand\ Drake~Jr, F.~L.  \harvardyearleft
+  1995\harvardyearright , {\em Python tutorial}, Vol. 620, Centrum voor
+  Wiskunde en Informatica: Amsterdam.
+\newline\harvardurl{https://fossies.org/linux/misc/python-3.9.5-docs-pdf-a4.tar.bz2/docs-pdf/tutorial.pdf}
+
+\harvarditem{Voss}{2019}{voss_2019}
+Voss, S.~E.  \harvardyearleft 2019\harvardyearright , `Resource review', {\em
+  Ear and Hearing} {\bf 40}(6),~1481.
+\newline\harvardurl{https://doi.org/10.1097/aud.0000000000000790}
+
+\harvarditem[{Wang} et~al.]{{Wang}, {Rush} \harvardand\
+  {Horton}}{2017}{wang2017}
+{Wang}, X., {Rush}, C. \harvardand\ {Horton}, N.~J.  \harvardyearleft
+  2017\harvardyearright , `Data visualization on day one: Bringing big ideas
+  into intro stats early and often', {\em Technology Innovations in Statistics
+  Education} {\bf 10}(1).
+\newline\harvardurl{https://escholarship.org/uc/item/84v3774z}
+
+\harvarditem{Watson}{2019}{watson_r_2019}
+Watson, B.  \harvardyearleft 2019\harvardyearright , {R} at the {ACLU}: Joining
+  tables to to reunite families, {\em in} `rstudio::conf 2019'.
+\newline\harvardurl{https://www.rstudio.com/resources/rstudioconf-2019/r-at-the-aclu-joining-tables-to-to-reunite-families/}
+
+\harvarditem{Wickham}{2014}{wickham2014tidy}
+Wickham, H.  \harvardyearleft 2014\harvardyearright , `Tidy data', {\em Journal
+  of Statistical Software} {\bf 59}(10),~1--23.
+\newline\harvardurl{http://dx.doi.org/10.18637/jss.v059.i10}
+
+\harvarditem{Wickham}{2015}{wickham2015pipe}
+Wickham, H.  \harvardyearleft 2015\harvardyearright , `I'm {Hadley Wickham,
+  Chief Scientist at RStudio} and creator of lots of {R} packages (incl.
+  ggplot2, dplyr, and devtools). {I love R}, data analysis/science,
+  visualisation: ask me anything!', reddit.com.
+\newline\harvardurl{https://www.reddit.com/r/dataisbeautiful/comments/3mp9r7/im\_hadley\_wickham\_chief\_scientist\_at\_rstudio\_and/cvi19ly/}
+
+\harvarditem{Wickham}{2016}{wickham2016user}
+Wickham, H.  \harvardyearleft 2016\harvardyearright , Towards a grammar of
+  interactive graphics.
+\newblock {useR}! The International R Users Conference.
+
+\harvarditem{Wickham}{2018}{R-reshape}
+Wickham, H.  \harvardyearleft 2018\harvardyearright , {\em reshape: Flexibly
+  Reshape Data}.
+\newblock R package version 0.8.8.
+\newline\harvardurl{http://had.co.nz/reshape}
+
+\harvarditem{Wickham}{2019}{pivot-tweet}
+Wickham, H.  \harvardyearleft 2019\harvardyearright , ```please help me figure
+  out good names for the new pivot verbs in tidyr by filling out this (very
+  short!) survey: https://forms.gle/vvygbw1ewhk69ga17 \#rstats``', Twitter.
+\newline\harvardurl{https://twitter.com/hadleywickham/status/1109132826631421952}
+
+\harvarditem{Wickham}{2020{\em a}}{R-plyr}
+Wickham, H.  \harvardyearleft 2020{\em a}\harvardyearright , {\em plyr: Tools
+  for Splitting, Applying and Combining Data}.
+\newblock R package version 1.8.6.
+\newline\harvardurl{https://CRAN.R-project.org/package=plyr}
+
+\harvarditem{Wickham}{2020{\em b}}{R-reshape2}
+Wickham, H.  \harvardyearleft 2020{\em b}\harvardyearright , {\em reshape2:
+  Flexibly Reshape Data: A Reboot of the Reshape Package}.
+\newblock R package version 1.4.4.
+\newline\harvardurl{https://github.com/hadley/reshape}
+
+\harvarditem{Wickham}{2021{\em a}}{R-forcats}
+Wickham, H.  \harvardyearleft 2021{\em a}\harvardyearright , {\em forcats:
+  Tools for Working with Categorical Variables (Factors)}.
+\newblock R package version 0.5.1.
+\newline\harvardurl{https://CRAN.R-project.org/package=forcats}
+
+\harvarditem{Wickham}{2021{\em b}}{WickhamMaintaining2021}
+Wickham, H.  \harvardyearleft 2021{\em b}\harvardyearright , `Maintaining the
+  house the tidyverse built'.
+\newline\harvardurl{https://www.rstudio.com/resources/rstudioglobal-2021/maintaining-the-house-the-tidyverse-built/}
+
+\harvarditem{Wickham}{2021{\em c}}{R-tidyr}
+Wickham, H.  \harvardyearleft 2021{\em c}\harvardyearright , {\em tidyr: Tidy
+  Messy Data}.
+\newblock R package version 1.1.3.
+\newline\harvardurl{https://CRAN.R-project.org/package=tidyr}
+
+\harvarditem{Wickham}{2021{\em d}}{tidyverse-style}
+Wickham, H.  \harvardyearleft 2021{\em d}\harvardyearright , {\em The tidyverse
+  style guide}, bookdown.
+\newline\harvardurl{https://style.tidyverse.org}
+
+\harvarditem[Wickham et~al.]{Wickham, Averick, Bryan, Chang, McGowan, Fran{\c
+  c}ois, Grolemund, Hayes, Henry, Hester, Kuhn, Pedersen, Miller, Bache,
+  M{\"u}ller, Ooms, Robinson, Seidel, Spinu, Takahashi, Vaughan, Wilke, Woo
+  \harvardand\ Yutani}{2019}{tidyverse}
+Wickham, H., Averick, M., Bryan, J., Chang, W., McGowan, L.~D., Fran{\c c}ois,
+  R., Grolemund, G., Hayes, A., Henry, L., Hester, J., Kuhn, M., Pedersen,
+  T.~L., Miller, E., Bache, S.~M., M{\"u}ller, K., Ooms, J., Robinson, D.,
+  Seidel, D.~P., Spinu, V., Takahashi, K., Vaughan, D., Wilke, C., Woo, K.
+  \harvardand\ Yutani, H.  \harvardyearleft 2019\harvardyearright , `Welcome to
+  the {tidyverse}', {\em Journal of Open Source Software} {\bf 4}(43),~1686.
+\newline\harvardurl{https://doi.org/10.21105/joss.01686}
+
+\harvarditem{Wickham, Chang, Henry, Pedersen, Takahashi, Wilke, Woo, Yutani
+  \harvardand\ Dunnington}{2021}{R-ggplot2}
+Wickham, H., Chang, W., Henry, L., Pedersen, T.~L., Takahashi, K., Wilke, C.,
+  Woo, K., Yutani, H. \harvardand\ Dunnington, D.  \harvardyearleft
+  2021\harvardyearright , {\em ggplot2: Create Elegant Data Visualisations
+  Using the Grammar of Graphics}.
+\newblock R package version 3.3.5.
+\newline\harvardurl{https://CRAN.R-project.org/package=ggplot2}
+
+\harvarditem{Wickham, Chang, Henry, Pedersen, Takahashi, Wilke, Woo, Yutani
+  \harvardand\ Dewey}{2021}{ggplot2inpackage}
+Wickham, H., Chang, W., Henry, L., Pedersen, T., Takahashi, K., Wilke, C., Woo,
+  K., Yutani, H. \harvardand\ Dewey, D.  \harvardyearleft 2021\harvardyearright
+  , {\em Using ggplot2 in packages}.
+\newline\harvardurl{https://ggplot2.tidyverse.org/articles/ggplot2-in-packages.html}
+
+\harvarditem{Wickham, François, Henry \harvardand\ Müller}{2021{\em
+  a}}{R-dplyr}
+Wickham, H., François, R., Henry, L. \harvardand\ Müller, K.
+  \harvardyearleft 2021{\em a}\harvardyearright , {\em dplyr: A Grammar of Data
+  Manipulation}.
+\newblock R package version 1.0.7.
+\newline\harvardurl{https://CRAN.R-project.org/package=dplyr}
+
+\harvarditem{Wickham, François, Henry \harvardand\ Müller}{2021{\em
+  b}}{programdplyr}
+Wickham, H., François, R., Henry, L. \harvardand\ Müller, K.
+  \harvardyearleft 2021{\em b}\harvardyearright , {\em Programming with dplyr}.
+\newline\harvardurl{https://dplyr.tidyverse.org/articles/programming.html}
+
+\harvarditem{Wickham, Girlich \harvardand\ Ruiz}{2021}{R-dbplyr}
+Wickham, H., Girlich, M. \harvardand\ Ruiz, E.  \harvardyearleft
+  2021\harvardyearright , {\em dbplyr: A dplyr Back End for Databases}.
+\newblock R package version 2.1.1.
+\newline\harvardurl{https://CRAN.R-project.org/package=dbplyr}
+
+\harvarditem{Wickham \harvardand\ Grolemund}{2016}{wickham2016r}
+Wickham, H. \harvardand\ Grolemund, G.  \harvardyearleft 2016\harvardyearright
+  , {\em {R} for data science: import, tidy, transform, visualize, and model
+  data}, O'Reilly Media, Inc.: Sebastopol, CA.
+\newline\harvardurl{https://r4ds.had.co.nz/}
+
+\harvarditem{Wickham, Navarro \harvardand\ Pedersen}{2021}{Wic2021}
+Wickham, H., Navarro, D. \harvardand\ Pedersen, T.~L.  \harvardyearleft
+  2021\harvardyearright , {\em ggplot2: Elegant graphics for data analysis},
+  3rd edn, Springer: New York.
+\newline\harvardurl{https://ggplot2-book.org/}
+
+\harvarditem{Wilkinson}{2012}{wilkinson2012grammar}
+Wilkinson, L.  \harvardyearleft 2012\harvardyearright , The grammar of
+  graphics, {\em in} `Handbook of Computational Statistics', Springer,
+  pp.~375--414.
+\newline\harvardurl{https://doi.org/10.1007/978-3-642-21551-3\_13}
+
+\harvarditem[Zieffler et~al.]{Zieffler, Garfield, Alt, Dupuis, Holleque
+  \harvardand\ Chang}{2008}{zieffler2008}
+Zieffler, A., Garfield, J., Alt, S., Dupuis, D., Holleque, K. \harvardand\
+  Chang, B.  \harvardyearleft 2008\harvardyearright , `What does research
+  suggest about the teaching and learning of introductory statistics at the
+  college level? a review of the literature', {\em Journal of Statistics
+  Education} {\bf 16}(2).
+\newline\harvardurl{http://jse.amstat.org/v16n2/zieffler.html}
+
+\end{thebibliography}
