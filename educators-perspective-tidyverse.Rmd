@@ -145,8 +145,9 @@ tribble(
   "Community", "Large, active, welcoming community of users and resources", 
   "Transferability", "Data manipulation verbs inherit from SQL's query syntax"
 ) |>
-  knitr::kable(caption = "Summary of pedagogical benefits of the tidyverse discussed in this paper.\\label{tab:summary}", label = "tab:summary") |>
-  kableExtra::column_spec(2, width = "28em")
+  knitr::kable(caption = "Summary of pedagogical benefits of the tidyverse discussed in this paper.\\label{tab:summary}", label = "tab:summary", booktabs = TRUE, linesep = "\\addlinespace") |>
+  kableExtra::column_spec(2, width = "28em") |>
+  kableExtra::row_spec(0, bold = TRUE)
 ```
 
 # Principles of the tidyverse {#sec:principles}
@@ -155,7 +156,7 @@ The tidyverse package is a meta R package that loads eight core packages when in
 These packages all share a design philosophy as well as common grammar and data structures.
 The core packages and the phases of the data science cycle they address are shown in Figure \ref{fig:data-science-cycle}.
 
-```{r data-science-cycle, fig.cap = "Data science cycle and the core tidyverse packages that address each phase.", echo = FALSE, fig.align = "center", out.width = "80%"}
+```{r data-science-cycle, fig.cap="Data science cycle and the core tidyverse packages that address each phase. Image credit: \\cite{wickham2016r}.", echo = FALSE, fig.align = "center", out.width = "80%"}
 knitr::include_graphics("images/data-science.png")
 ```
 

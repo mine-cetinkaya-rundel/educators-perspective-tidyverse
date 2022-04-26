@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.3.30)  22 APR 2022 12:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.3.30)  25 APR 2022 21:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -658,7 +658,7 @@ Package xcolor Warning: Incompatible color definition on input line 884.
 
 Package xcolor Warning: Incompatible color definition on input line 884.
 
-<educators-perspective-tidyverse_files/figure-latex/ggplot_ex-1.pdf, id=348, 638.385pt x 213.79875pt>
+<educators-perspective-tidyverse_files/figure-latex/ggplot_ex-1.pdf, id=353, 638.385pt x 213.79875pt>
 File: educators-perspective-tidyverse_files/figure-latex/ggplot_ex-1.pdf Graphic file (type pdf)
 <use educators-perspective-tidyverse_files/figure-latex/ggplot_ex-1.pdf>
 Package pdftex.def Info: educators-perspective-tidyverse_files/figure-latex/ggplot_ex-1.pdf  used on input line 886.
@@ -679,7 +679,7 @@ Package xcolor Warning: Incompatible color definition on input line 916.
 
 Package xcolor Warning: Incompatible color definition on input line 916.
 
-<educators-perspective-tidyverse_files/figure-latex/base_plot_ex-1.pdf, id=350, 629.35126pt x 202.7575pt>
+<educators-perspective-tidyverse_files/figure-latex/base_plot_ex-1.pdf, id=355, 629.35126pt x 202.7575pt>
 File: educators-perspective-tidyverse_files/figure-latex/base_plot_ex-1.pdf Graphic file (type pdf)
 <use educators-perspective-tidyverse_files/figure-latex/base_plot_ex-1.pdf>
 Package pdftex.def Info: educators-perspective-tidyverse_files/figure-latex/base_plot_ex-1.pdf  used on input line 918.
@@ -699,7 +699,7 @@ Package xcolor Warning: Incompatible color definition on input line 939.
 
 Package xcolor Warning: Incompatible color definition on input line 939.
 
-<educators-perspective-tidyverse_files/figure-latex/ggplot_ex2-1.pdf, id=364, 630.355pt x 213.79875pt>
+<educators-perspective-tidyverse_files/figure-latex/ggplot_ex2-1.pdf, id=369, 630.355pt x 213.79875pt>
 File: educators-perspective-tidyverse_files/figure-latex/ggplot_ex2-1.pdf Graphic file (type pdf)
 <use educators-perspective-tidyverse_files/figure-latex/ggplot_ex2-1.pdf>
 Package pdftex.def Info: educators-perspective-tidyverse_files/figure-latex/ggplot_ex2-1.pdf  used on input line 941.
@@ -719,7 +719,7 @@ Package xcolor Warning: Incompatible color definition on input line 972.
 
 Package xcolor Warning: Incompatible color definition on input line 972.
 
-<educators-perspective-tidyverse_files/figure-latex/ggplot-scat-1.pdf, id=385, 558.085pt x 342.27875pt>
+<educators-perspective-tidyverse_files/figure-latex/ggplot-scat-1.pdf, id=390, 558.085pt x 342.27875pt>
 File: educators-perspective-tidyverse_files/figure-latex/ggplot-scat-1.pdf Graphic file (type pdf)
 <use educators-perspective-tidyverse_files/figure-latex/ggplot-scat-1.pdf>
 Package pdftex.def Info: educators-perspective-tidyverse_files/figure-latex/ggplot-scat-1.pdf  used on input line 974.
@@ -739,7 +739,7 @@ Package xcolor Warning: Incompatible color definition on input line 1024.
 
 Package xcolor Warning: Incompatible color definition on input line 1024.
 
-<educators-perspective-tidyverse_files/figure-latex/base-scat-1.pdf, id=406, 549.05125pt x 284.06125pt>
+<educators-perspective-tidyverse_files/figure-latex/base-scat-1.pdf, id=411, 549.05125pt x 284.06125pt>
 File: educators-perspective-tidyverse_files/figure-latex/base-scat-1.pdf Graphic file (type pdf)
 <use educators-perspective-tidyverse_files/figure-latex/base-scat-1.pdf>
 Package pdftex.def Info: educators-perspective-tidyverse_files/figure-latex/base-scat-1.pdf  used on input line 1026.
@@ -855,7 +855,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 1440.
 See the caption package documentation for explanation.
 
-<images/fruitveggies.png, id=511, 743.77875pt x 333.245pt>
+<images/fruitveggies.png, id=516, 743.77875pt x 333.245pt>
 File: images/fruitveggies.png Graphic file (type png)
 <use images/fruitveggies.png>
 Package pdftex.def Info: images/fruitveggies.png  used on input line 1479.
@@ -1013,16 +1013,16 @@ Package rerunfilecheck Info: File `educators-perspective-tidyverse.out' has not 
 Here is how much of TeX's memory you used:
  14515 strings out of 480236
  239132 string characters out of 5895115
- 536673 words of memory out of 5000000
+ 536704 words of memory out of 5000000
  32022 multiletter control sequences out of 15000+600000
  479619 words of font info for 65 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,12n,63p,438b,589s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/mine/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tctt1200.600pk> </Users/mine/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </Users/mine/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0700.600pk> </Users/mine/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></Users/mine/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on educators-perspective-tidyverse.pdf (52 pages, 1601380 bytes).
+Output written on educators-perspective-tidyverse.pdf (52 pages, 1601428 bytes).
 PDF statistics:
- 939 PDF objects out of 1000 (max. 8388607)
- 812 compressed objects within 9 object streams
+ 943 PDF objects out of 1000 (max. 8388607)
+ 814 compressed objects within 9 object streams
  214 named destinations out of 1000 (max. 500000)
  196 words of extra memory for PDF output out of 10000 (max. 10000000)
 
